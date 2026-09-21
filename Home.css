@@ -194,6 +194,8 @@ footer {
 	float: left;
 	padding-top: 23px;
 	text-align: right;
+	width: 100px;
+	height: 100px;
 }
 @media (max-width:768px) {
 	.left-footer {
