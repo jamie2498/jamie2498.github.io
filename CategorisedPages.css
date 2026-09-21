@@ -98,9 +98,10 @@ ul {
 	text-align: left;
 	padding: 0px;
 	font-size: 18px;
+	font-weight: 150;
 }
 li {
-	color: #09183b;
+	color: #132b64;
 	margin-bottom: 6px;
 }
 @media (max-width : 768px){
