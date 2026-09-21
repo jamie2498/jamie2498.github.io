@@ -201,7 +201,6 @@ footer {
 .footer {
 	width: 49%;
 	float: right;
-	padding-top: 4px;
 	align-items: center;
 }
 @media (max-width:768px) {
