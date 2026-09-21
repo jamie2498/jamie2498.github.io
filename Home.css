@@ -72,7 +72,7 @@ a:hover {color: #E77467;}
     }
 }
 
-.project {
+.Work {
     width: 30%;
     text-align: center;
     float: left;
@@ -85,7 +85,7 @@ a:hover {color: #E77467;}
     margin-right:14%;
 }
 @media (max-width:768px) {
-	.project {
+	.Work {
 		width:100%;
 		padding-bottom: 50px;
 		margin-left:0px;
