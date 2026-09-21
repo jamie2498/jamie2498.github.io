@@ -65,7 +65,7 @@ a:hover {color: #E77467;}
 	padding-top: 60px;
 	padding-left: 40px;
 	position: fixed;
-	color: #1e3271;
+	color: #162954;
 	font-size: 30px;
 	text-align: left;
 }
@@ -95,14 +95,14 @@ a:hover {color: #E77467;}
 		display: none;
 		margin-top: 90px;
 		padding-left: 20px;
-		background-color: #1e3271;
+		background-color: #162954;
 		opacity: 0.8;
 	}
 }
 
 
 .category {
-	color: #1e3271;
+	color: #162954;
 	font-size: 20px;
 	text-align: left;
 	margin-top: 40px;
@@ -116,7 +116,7 @@ a:hover {color: #E77467;}
 
 ul {
 	list-style: none;
-    font-family: 'Jamie Oh! normal';
+    font-family: 'Noto Sans KR', 'Noto Sans JP','Noto Sans' sans-serif;
 	text-align: left;
 	padding: 0px;
 	font-size: 18px;
@@ -170,13 +170,13 @@ li {
 		margin-top: 90px;
 		padding-left: 20px;
 		padding-right: 30px;
-		background-color: #1e3271;
+		background-color: #162954;
 		opacity: 0.8;
         position: fixed;
         transition: .6s;
     }
 	#openMenu:checked ~ #showMenu {
-        background-color: #1e3271;
+        background-color: #162954;
         top:0px;
 		right: 0px;
         width: 300px;
@@ -207,7 +207,7 @@ li {
 
 
 .grid {
-	font-family: 'Jamie Oh! normal';
+	font-family: 'Noto Sans KR', 'Noto Sans JP','Noto Sans' sans-serif;
 	text-align: center;
 	width: 84%;
 	margin-left: 290px;
@@ -296,10 +296,10 @@ footer {
 	bottom: 0px;
 	padding-top: 15px;
 	position: absolute;
-	background-color: #1e3271;
+	background-color: #162954;
 	color: white;
 	text-align: left;
-	font-family: 'Jamie Oh! thin';
+	font-family: 'Noto Sans KR', 'Noto Sans JP','Noto Sans' sans-serif;
 	font-size: 15px;
 	opacity: 0.8;
 }
@@ -322,7 +322,7 @@ footer {
 	}
 }
 
-.right-footer {font-family: 'Jamie Oh! normal';}
+.right-footer {font-family: 'Noto Sans KR', 'Noto Sans JP','Noto Sans' sans-serif;}
 
 .left-footer {
 	width: 49%;	
