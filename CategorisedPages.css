@@ -84,7 +84,7 @@ a:hover {color: #f7a98a;}
 	font-size: 20px;
 	text-align: left;
 	margin-top: 40px;
-	font-weight: 300;
+	font-weight: 500;
 }
 @media (max-width : 768px){
 	.category{
@@ -99,7 +99,7 @@ ul {
 	text-align: left;
 	padding: 0px;
 	font-size: 18px;
-	font-weight: 150;
+	font-weight: 200;
 }
 li {
 	color: #132b64;

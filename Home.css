@@ -121,7 +121,7 @@ a:hover {color: #f7a98a;}
     color: #09183b;
 	text-align: center;
 	font-size: 30px;
-	font-weight: 300;
+	font-weight: 500;
 }
 @media (max-width : 768px){
 	.category{
@@ -136,7 +136,7 @@ ul {
 	margin: 0px;
 	padding: 0px;
 	font-size: 24px;
-	font-weight: 150;
+	font-weight: 200;
 	color: #132b64;
 }
 li {margin: 10px;}
