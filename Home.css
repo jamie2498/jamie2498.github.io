@@ -180,7 +180,7 @@ footer {
 	height: 120px;
 	bottom: 0px;
 	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 8px;
 	position: absolute;
 	background-color: #09183b;
 	color: white;
@@ -216,8 +216,6 @@ footer {
 	font-size: 55px;
 	font-family: 'Jamie Oh! bold';
 	float: left;
-	padding-top: 18px;
-
 	display: flex;
 	justify-content: flex-end;
 }
