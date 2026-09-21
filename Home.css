@@ -121,6 +121,7 @@ a:hover {color: #f7a98a;}
     color: #09183b;
 	text-align: center;
 	font-size: 30px;
+	font-weight: 300;
 }
 @media (max-width : 768px){
 	.category{
