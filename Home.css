@@ -49,6 +49,7 @@ a:hover {color: #f7a98a;}
 	font-family: 'Jamie Oh! bold';
 	width: 200px;
 	height: 200px;
+	position: center;
 }
 @media (max-width : 1279px){
 	.title {
