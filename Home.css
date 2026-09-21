@@ -171,8 +171,6 @@ footer img {
 	display: block;
 	width: 100px;
 	height: auto;
-	margin-left: auto;
-	margin-right: 0;
 	max-width: 100%;
 }
 
@@ -219,7 +217,9 @@ footer {
 	font-family: 'Jamie Oh! bold';
 	float: left;
 	padding-top: 18px;
-	text-align: right;
+
+	display: flex;
+	justify-content: flex-end;
 }
 @media (max-width:768px) {
 	.left-footer {
