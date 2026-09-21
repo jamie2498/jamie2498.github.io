@@ -36,29 +36,6 @@ a:visited {text-decoration: none;}
 a:hover {color: #f7a98a;}
 
 
-.header {
-	width: 100%;
-	height: 50px;
-	padding-bottom: 50px;
-	padding-top: 60px;
-	padding-left: 40px;
-	position: fixed;
-	color: #09183b;
-	font-size: 30px;
-	text-align: left;
-}
-@media (max-width: 768px) {
-	.header {
-		height: 1px;
-	    padding-top: 30px;
-    	padding-left: 20px;
-		background-color: white;
-		opacity: 0.8;
-		font-size: 25px;
-		padding-bottom: 60px;
-	}
-}
-
 .box {
 	height: 100%;
 	padding-left: 40px;
@@ -308,7 +285,7 @@ footer {
 	font-size: 55px;
 	font-family: 'Jamie Oh! bold';
 	float: left;
-	padding-top: 23px;
+	padding-top: 18px;
 	text-align: right;
 }
 @media (max-width:768px) {
@@ -318,4 +295,40 @@ footer {
 	}
 }
 
+
+.header {
+	width: 100%;
+	height: 50px;
+	padding-bottom: 50px;
+	padding-top: 60px;
+	padding-left: 40px;
+	position: fixed;
+	color: #09183b;
+	font-size: 30px;
+	text-align: left;
+}
+@media (max-width: 768px) {
+	.header {
+		height: 1px;
+	    padding-top: 30px;
+    	padding-left: 20px;
+		background-color: white;
+		opacity: 0.8;
+		font-size: 25px;
+		padding-bottom: 60px;
+	}
+}
+
+.header img {
+	display: block;
+	width: auto;
+	height: 300px;
+	max-width: 100%;
+}
+footer img {
+	display: block;
+	width: 100px;
+	height: auto;
+	max-width: 100%;
+}
 
