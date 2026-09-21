@@ -302,7 +302,7 @@ footer {
 	font-size: 55px;
 	font-family: 'Jamie Oh! bold';
 	float: left;
-	padding-top: 23px;
+	padding-top: -75px;
 	text-align: right;
 }
 @media (max-width:768px) {
