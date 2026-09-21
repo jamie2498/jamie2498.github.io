@@ -287,8 +287,8 @@ footer {
 
 .footer {
 	width: 49%;
-	float: right;
-	padding-top: 4px;
+	box-sizing: border-box;
+	padding-left: 20px;
 }
 @media (max-width:768px) {
 	.footer {
@@ -296,17 +296,24 @@ footer {
 	}
 }
 
-.p-footer {font-family: 'Jamie Oh! normal';}
-.Oh {
-	width: 49%;
+.right-footer {font-family: 'Jamie Oh! normal';}
+
+.left-footer {
+	width: 49%;	
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+    padding-right: 20px; 
 	font-size: 55px;
 	font-family: 'Jamie Oh! bold';
-	float: left;
-	padding-top: 23px;
-	text-align: right;
+}
+.left-footer img {
+	width: 80px;
+	height: 80px;
+	display: block; 
 }
 @media (max-width:768px) {
-	.Oh {
+	.left-footer {
 		font-size: 45px;
 		padding-top: 16px;
 	}
