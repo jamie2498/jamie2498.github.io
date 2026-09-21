@@ -47,7 +47,6 @@ a:hover {color: #f7a98a;}
     font-size: 50px;
 	padding-bottom: 12%;
 	font-family: 'Jamie Oh! bold';
-	position: center;
 }
 @media (max-width : 1279px){
 	.title {
@@ -197,10 +196,14 @@ footer {
 	padding-top: 30px;
 	text-align: right;
 }
+.header {
+	display: flex;
+	justify-content: center;
+}
 .header img {
 	display: block;
 	width: auto;
-	height: 200px0;
+	height: 200px;
 	max-width: 100%;
 }
 footer img {
