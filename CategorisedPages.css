@@ -291,8 +291,8 @@ footer {
 
 .footer {
 	width: 49%;
-	box-sizing: border-box;
-	padding-left: 20px;
+	float: right;
+	padding-top: 4px;
 }
 @media (max-width:768px) {
 	.footer {
@@ -301,20 +301,13 @@ footer {
 }
 
 .right-footer {font-family: 'Noto Sans KR', 'Noto Sans JP','Noto Sans' sans-serif;}
-
 .left-footer {
 	width: 49%;	
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-    padding-right: 20px; 
 	font-size: 55px;
 	font-family: 'Jamie Oh! bold';
-}
-.left-footer img {
-	width: 80px;
-	height: 80px;
-	display: block; 
+	float: left;
+	padding-top: 23px;
+	text-align: right;
 }
 @media (max-width:768px) {
 	.left-footer {
@@ -322,4 +315,5 @@ footer {
 		padding-top: 16px;
 	}
 }
+
 
