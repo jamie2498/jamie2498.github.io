@@ -55,7 +55,7 @@ section {padding-bottom: 200px;}
 
 a {text-decoration: none; color: inherit;}
 a:visited {text-decoration: none;}
-a:hover {color: #E77467;}
+a:hover {color: #f7a98a;}
 
 
 .header {
@@ -65,7 +65,7 @@ a:hover {color: #E77467;}
 	padding-top: 60px;
 	padding-left: 40px;
 	position: fixed;
-	color: #162954;
+	color: #0f214b;
 	font-size: 30px;
 	text-align: left;
 }
@@ -95,14 +95,14 @@ a:hover {color: #E77467;}
 		display: none;
 		margin-top: 90px;
 		padding-left: 20px;
-		background-color: #162954;
+		background-color: #0f214b;
 		opacity: 0.8;
 	}
 }
 
 
 .category {
-	color: #162954;
+	color: #0f214b;
 	font-size: 20px;
 	text-align: left;
 	margin-top: 40px;
@@ -122,7 +122,7 @@ ul {
 	font-size: 18px;
 }
 li {
-	color: #1e3271;
+	color: #0f214b;
 	margin-bottom: 6px;
 }
 @media (max-width : 768px){
@@ -170,13 +170,13 @@ li {
 		margin-top: 90px;
 		padding-left: 20px;
 		padding-right: 30px;
-		background-color: #162954;
+		background-color: #0f214b;
 		opacity: 0.8;
         position: fixed;
         transition: .6s;
     }
 	#openMenu:checked ~ #showMenu {
-        background-color: #162954;
+        background-color: #0f214b;
         top:0px;
 		right: 0px;
         width: 300px;
@@ -296,7 +296,7 @@ footer {
 	bottom: 0px;
 	padding-top: 15px;
 	position: absolute;
-	background-color: #162954;
+	background-color: #0f214b;
 	color: white;
 	text-align: left;
 	font-family: 'Noto Sans KR', 'Noto Sans JP','Noto Sans' sans-serif;
