@@ -41,7 +41,7 @@ a:hover {color: #f7a98a;}
 
 
 .title {
-	padding-top: 30px;
+	padding-top: 50px;
     color: #09183b;
     text-align: center;
     font-size: 50px;
@@ -193,11 +193,16 @@ footer {
 	width: 49%;
 	font-size: 55px;
 	font-family: 'Jamie Oh! bold';
-	float: left;
-	padding-top: 23px;
+	float: right;
+	padding-top: 30px;
 	text-align: right;
 }
-.header img,
+.header img {
+	display: block;
+	width: auto;
+	height: 200px0;
+	max-width: 100%;
+}
 footer img {
 	display: block;
 	width: 100px;
