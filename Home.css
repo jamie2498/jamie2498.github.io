@@ -98,7 +98,7 @@ ul {
 	text-align: center;
 	margin: 0px;
 	padding: 0px;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 250;
 	color: #132b64;
 }
@@ -106,7 +106,7 @@ li {margin: 10px;}
 
 @media (max-width : 768px){
 	ul{
-		font-size: 16px;
+		font-size: 14px;
 	}
 }
 
@@ -179,7 +179,7 @@ footer {
 	width: 100%;
 	height: 120px;
 	bottom: 0px;
-	padding-top: 23px;
+	padding-top: 28px;
 	padding-bottom: 4px;
 	position: absolute;
 	background-color: #09183b;
