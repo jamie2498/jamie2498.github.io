@@ -47,7 +47,8 @@ a:hover {color: #f7a98a;}
     font-size: 50px;
 	padding-bottom: 12%;
 	font-family: 'Jamie Oh! bold';
-	size: 30%;
+	width: 30%;
+	height: auto;
 	position: center;
 }
 @media (max-width : 1279px){
@@ -196,8 +197,8 @@ footer {
 	float: left;
 	padding-top: 23px;
 	text-align: right;
-	width: 100px;
-	height: 100px;
+	width: 30%;
+	height: auto;
 }
 @media (max-width:768px) {
 	.left-footer {
