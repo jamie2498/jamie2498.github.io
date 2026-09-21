@@ -8,7 +8,14 @@
 <link rel="icon" href="/favicon.ico">
 </head>
 
-	
+<script>
+    fetch("/footer.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("footer").innerHTML = data;
+        });
+</script>
+
 <body>
     <div id='wrap'>
         <section>
@@ -44,16 +51,7 @@
 	
         </section>
 
-        <footer>
-			<div class=Oh>
-				<img src = "../icon-white.png" alt = "Oh" width="150px" height="150px">
-			</div>
-	        <div class="footer">
-	            <p class="p-footer">Contact</p>
-	    	    <span>jamie990317@gmail.com</span><br>
-	    	    <span><a href="https://www.instagram.com/_o_jamie/" target="_blank">Instagram: @_o_jamie</a></span>
-            </div>
-        </footer>
+        <div id="footer"></div>
     </div>
 
 </body>
