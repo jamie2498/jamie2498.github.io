@@ -1,6 +1,31 @@
 @charset "utf-8";
 /* CSS Document */
 
+@import url('https://googleapis.com');
+
+.noto-sans-<uniquifier> {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.noto-sans-kr-<uniquifier> {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.noto-sans-jp-<uniquifier> {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 @font-face {
     font-family: 'Jamie Oh! bold';
     src: url('\Jamie-Oh__bold.woff') format('woff');
@@ -21,6 +46,7 @@
 }
 
 body {
+	font-family: 'Noto Sans KR', 'Noto Sans JP','Noto Sans' sans-serif;
 	font-family: 'Jamie Oh! bold';
     margin: 0px;
 	padding: 0px;
