@@ -197,8 +197,8 @@ footer {
 	padding-top: 23px;
 	text-align: right;
 }
-header img,
-left-footer img {
+.header img,
+footer img {
 	display: block;
 	width: 100px;
 	height: auto;
