@@ -198,7 +198,7 @@ footer {
 	text-align: right;
 }
 header img,
-footer img {
+left-footer img {
 	display: block;
 	width: 100px;
 	height: auto;
