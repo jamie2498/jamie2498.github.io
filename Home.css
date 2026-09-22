@@ -68,15 +68,16 @@ a:hover {color: #f7a98a;}
 
 .Work, .Text, .About {
     width: 25%;
+	height: 440px;
     text-align: center;
 	justify-content: center;
-	padding-left: 15px;
-	padding-right: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
 	overflow: hidden;	
-	height: 440px;
 }
 .Work, .Text, .About img {
 	height: 100%;
+	width: 100%;
 	object-fit: cover;
 	transition: all 0.12s linear;
 }
