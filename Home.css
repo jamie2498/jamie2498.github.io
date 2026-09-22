@@ -72,9 +72,14 @@ a:hover {color: #f7a98a;}
 	justify-content: center;
 	margin: 10px;
 	overflow: hidden;	
-	height: 500px;
+	height: 400px;
 }
-.Work, .Text, .About img {
+.Work img {
+	height: 100%;
+	object-fit: cover;
+	transition: all 0.12s linear;
+}
+.Text, .About img {
 	width: 100%;
 	object-fit: cover;
 	transition: all 0.12s linear;
