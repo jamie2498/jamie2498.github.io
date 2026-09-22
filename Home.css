@@ -94,15 +94,28 @@ a:hover {color: #f7a98a;}
 		margin-left:0px;
 		float: none;
 	}
+	.Work img {
+		width: 100%;
+		object-fit: cover;
+	}
 	.Text {
 		width:100%;
 		margin-left:0px;
 		float: none;
 	}
+	.Text img {
+		width: 100%;
+		object-fit: cover;
+	}
 	.About {
 		width:100%;
 		margin-left:0px;
 		float: none;
+		overflow: hidden;
+	}
+	.About img {
+		width: 100%;
+		object-fit: cover;
 	}
 } 
 
