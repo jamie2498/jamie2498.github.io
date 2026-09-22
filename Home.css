@@ -70,7 +70,8 @@ a:hover {color: #f7a98a;}
     width: 25%;
     text-align: center;
 	justify-content: center;
-	margin: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
 	overflow: hidden;	
 	height: 400px;
 }
@@ -104,7 +105,7 @@ a:hover {color: #f7a98a;}
 	text-align: center;
 	font-size: 23px;
 	font-weight: 485;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 }
 @media (max-width : 768px){
 	.category{
