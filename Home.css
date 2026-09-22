@@ -150,7 +150,6 @@ h3 {
 
 .title {
 	padding-top: 50px;
-	width: 500px;
     color: #09183b;
     text-align: center;
     font-size: 50px;
@@ -197,7 +196,7 @@ h3 {
 	display: block;
 	width: auto;
 	height: 300px;
-	max-width: 100%;
+	max-width: 90vw;
 }
 footer img {
 	display: block;
