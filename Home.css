@@ -75,13 +75,8 @@ a:hover {color: #f7a98a;}
 	overflow: hidden;	
 	height: 400px;
 }
-.Work img {
+.Work, .Text, .About img {
 	height: 100%;
-	object-fit: cover;
-	transition: all 0.12s linear;
-}
-.Text, .About img {
-	width: 100%;
 	object-fit: cover;
 	transition: all 0.12s linear;
 }
