@@ -26,7 +26,7 @@
 
 
 body {
-	font-family: 'Noto Sans KR', 'Noto Sans JP','Noto Sans' sans-serif;
+	font-family: 'Noto Sans KR', 'Noto Sans JP','Noto Sans', sans-serif;
 	font-weight: 150;
 	margin: 0px;
 	padding: 0px;
@@ -162,14 +162,12 @@ h3 {
 .title {
     color: #09183b;
     text-align: center;
-	
 	overflow: hidden;
     font-size: 50px;
 	font-family: 'Jamie Oh! bold';
 }
 .title img {
 	width: 300px;
-
 }
 @media (max-width : 1279px){
 	.title {
@@ -209,12 +207,15 @@ h3 {
 	margin-bottom: 50px;
 	margin-top: 20px;
 	height: 200px;
-	object-fit: cover; /* 영역에 맞게 이미지를 채움 */
-    object-position: center bottom; /* 아래쪽을 기준으로 맞추어 윗부분이 잘림 */
+	overflow: hidden;
 }
 .header img {
 	display: block;
+	height: 100%;
+	width: auto;
 	max-width: 90vw;
+	object-fit: cover;
+    object-position: center;
 }
 footer img {
 	display: block;
