@@ -72,6 +72,10 @@ a:hover {color: #f7a98a;}
 	justify-content: center;
 	margin: 10px;	
 }
+.Work img {
+	width: 100%;
+	object-fit: cover;
+}
 
 .Text {
     width: 25%;
@@ -79,12 +83,20 @@ a:hover {color: #f7a98a;}
 	justify-content: center;
 	margin: 10px;
 }
+.Text img {
+	width: 100%;
+	object-fit: cover;
+}
 
 .About {
     width: 25%;
     text-align: center;
 	justify-content: center;
 	margin: 10px;
+}
+.About img {
+	width: 100%;
+	object-fit: cover;
 }
 
 @media (max-width:768px) {
@@ -95,7 +107,6 @@ a:hover {color: #f7a98a;}
 		float: none;
 	}
 	.Work img {
-		margin-top: 10px;
 		width: 100%;
 		object-fit: cover;
 	}
@@ -105,7 +116,6 @@ a:hover {color: #f7a98a;}
 		float: none;
 	}
 	.Text img {
-		margin-top: 10px;
 		width: 100%;
 		object-fit: cover;
 	}
@@ -116,7 +126,6 @@ a:hover {color: #f7a98a;}
 		overflow: hidden;
 	}
 	.About img {
-		margin-top: 10px;
 		width: 100%;
 		object-fit: cover;
 	}
@@ -127,6 +136,7 @@ a:hover {color: #f7a98a;}
 	text-align: center;
 	font-size: 23px;
 	font-weight: 485;
+	margin-bottom: 10px;
 }
 @media (max-width : 768px){
 	.category{
