@@ -70,18 +70,17 @@ a:hover {color: #f7a98a;}
     width: 25%;
 	height: 440px;
     text-align: center;
-	justify-content: center;
 	margin-left: 15px;
 	margin-right: 15px;
 	overflow: hidden;	
 }
-.Work, .Text, .About img {
+.Work img, .Text img, .About img {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
 	transition: all 0.12s linear;
 }
-.Work, .Text, .About:hover img {transform: scale(1.1);}
+.Work:hover img, .Text:hover img, .About:hover img {transform: scale(1.1);}
 
 @media (max-width:768px) {
 	.Work, .Text, .About {
@@ -90,7 +89,7 @@ a:hover {color: #f7a98a;}
 		margin-left:0px;
 		float: none;
 	}
-	.Work, .Text, .About img {
+	.Work img, .Text img, .About img {
 		width: 100%;
 		object-fit: cover;
 	}
