@@ -166,7 +166,7 @@ li {
 .grid {
 	font-family: 'Noto Sans KR', 'Noto Sans JP','Noto Sans' sans-serif;
 	text-align: center;
-	width: 84%;
+	width: calc(100% - 290px);
 	margin-left: 290px;
 	padding-top: 150px;
 	display: flex;
