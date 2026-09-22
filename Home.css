@@ -163,8 +163,8 @@ h3 {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
-	margin-left: 100px;
-	margin-right: 100px;
+	padding-left: 100px;
+	padding-right: 100px;
 	width: calc(100% - 50px);
 }
 @media (max-width: 2000px) {
