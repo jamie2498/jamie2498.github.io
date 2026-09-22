@@ -66,66 +66,28 @@ a:hover {color: #f7a98a;}
     margin-left:14%;
 }*/
 
-.Work {
-    width: 25%;
-    text-align: center;
-	justify-content: center;
-	margin: 10px;	
-}
-.Work img {
-	width: 100%;
-	object-fit: cover;
-}
-
-.Text {
+.Work, .Text, .About {
     width: 25%;
     text-align: center;
 	justify-content: center;
 	margin: 10px;
+	overflow: hidden;	
+	height: 500px;
 }
-.Text img {
+.Work, .Text, .About img {
 	width: 100%;
 	object-fit: cover;
 }
-
-.About {
-    width: 25%;
-    text-align: center;
-	justify-content: center;
-	margin: 10px;
-}
-.About img {
-	width: 100%;
-	object-fit: cover;
-}
+.Work, .Text, .About:hover img {transform: scale(1.1);}
 
 @media (max-width:768px) {
-	.Work {
+	.Work, .Text, .About {
 		width:100%;
 		padding-bottom: 50px;
 		margin-left:0px;
 		float: none;
 	}
-	.Work img {
-		width: 100%;
-		object-fit: cover;
-	}
-	.Text {
-		width:100%;
-		margin-left:0px;
-		float: none;
-	}
-	.Text img {
-		width: 100%;
-		object-fit: cover;
-	}
-	.About {
-		width:100%;
-		margin-left:0px;
-		float: none;
-		overflow: hidden;
-	}
-	.About img {
+	.Work, .Text, .About img {
 		width: 100%;
 		object-fit: cover;
 	}
@@ -198,7 +160,7 @@ h3 {
 .box {
     display: flex;
     justify-content: center;
-    height: 500px;
+    margin-bottom: 100px;
 	width: calc(100% - 50px);
 }
 @media (max-width: 2000px) {
@@ -213,7 +175,6 @@ h3 {
 	    padding-bottom: 70px;
     }
 }
-.box:hover img {transform: scale(1.1);}
 
 .header {
 	display: flex;
