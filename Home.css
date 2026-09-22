@@ -166,6 +166,7 @@ h3 {
 	font-family: 'Jamie Oh! bold';
 }
 .title img {
+	width: 300px;
     object-fit: cover; /* 영역에 맞게 이미지를 채움 */
     object-position: center bottom; /* 아래쪽을 기준으로 맞추어 윗부분이 잘림 */
 }
@@ -209,9 +210,7 @@ h3 {
 }
 .header img {
 	display: block;
-	width: 300px;
 	max-width: 90vw;
-	
 }
 footer img {
 	display: block;
