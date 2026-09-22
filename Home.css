@@ -165,6 +165,10 @@ h3 {
     font-size: 50px;
 	font-family: 'Jamie Oh! bold';
 }
+.title img {
+    object-fit: cover; /* 영역에 맞게 이미지를 채움 */
+    object-position: center bottom; /* 아래쪽을 기준으로 맞추어 윗부분이 잘림 */
+}
 @media (max-width : 1279px){
 	.title {
 		font-size: 50px;
@@ -207,8 +211,7 @@ h3 {
 	display: block;
 	width: 300px;
 	max-width: 90vw;
-	object-fit: cover; /* 영역에 맞게 이미지를 채움 */
-    object-position: center top; /* 아래쪽을 기준으로 맞추어 윗부분이 잘림 */
+	
 }
 footer img {
 	display: block;
