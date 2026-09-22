@@ -311,7 +311,7 @@ footer {
 	/*padding-bottom: 50px;*/
 	/*padding-top: 60px;*/
 	bottom: 100px;
-	padding-left: 30px;
+	left: 30px;
 	position: fixed;
 	color: #09183b;
 	font-size: 30px;
