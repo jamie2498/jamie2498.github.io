@@ -310,7 +310,7 @@ footer {
 	width: 100%;
 	/*padding-bottom: 50px;*/
 	/*padding-top: 60px;*/
-	left: 25px;
+	margin-left: 25px;
 	position: fixed;
 	color: #09183b;
 	font-size: 30px;
