@@ -2,6 +2,8 @@
 @charset "utf-8";
 /* CSS Document */
 
+@import url('https://googleapis.com');
+
 @font-face {
     font-family: 'Jamie Oh! bold';
     src: url('\Jamie-Oh__bold.woff') format('woff');
@@ -22,7 +24,7 @@
 }
 
 body {
-	font-family: 'Jamie Oh! bold', 'Jamie Oh! thin', 'Jamie Oh! normal';
+	font-family: 'Noto Sans KR', 'Noto Sans JP','Noto Sans' sans-serif;
     margin: 0px;
 	padding: 0px;
 }
@@ -30,15 +32,15 @@ section {padding-bottom: 200px;}
 
 a {text-decoration: none; color: inherit;}
 a:visited {text-decoration: none;}
-a:hover {color: #E77467;}
+a:hover {color: #f7a98a;}
 
 .project-title {
-	font-family: 'Jamie Oh! bold';
 	font-size: 40px;
+	font-weight: 500;
 }
-.index {
-	font-family: 'Jamie Oh! bold';
+.subtitle {
 	font-size: 24px;
+	font-weight: 350;
 }
 
 
@@ -48,17 +50,17 @@ a:hover {color: #E77467;}
 	position: relative;
 }
 
-.post {
+.postbody {
 	width: 70%;
 	margin-left:15%;
 	margin-right: 15%;
 	padding-top: 150px;
 	text-align: center;
-	font-family: 'Jamie Oh! normal';
 	font-size: 20px;
+	font-weight: 230;
 }
 @media (max-width: 768px) {
-	.post {
+	.postbody {
 		padding-left: 200px;
 	}
 }
@@ -67,7 +69,7 @@ a:hover {color: #E77467;}
     width: 70%;
     margin-left: 15%;
 	margin-riight: 15%;
-    background-color: #032E2B;
+    background-color: #132b64;
 }
 @media (max-width:768px) {
 	.grid-background {
