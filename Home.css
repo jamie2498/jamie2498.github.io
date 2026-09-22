@@ -83,7 +83,7 @@ a:hover {color: #f7a98a;}
 .category {
     color: #09183b;
 	text-align: center;
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: 500;
 }
 @media (max-width : 768px){
@@ -98,7 +98,7 @@ ul {
 	text-align: center;
 	margin: 0px;
 	padding: 0px;
-	font-size: 15px;
+	font-size: 19px;
 	font-weight: 225;
 	color: #132b64;
 }
