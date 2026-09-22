@@ -160,7 +160,7 @@ h3 {
 .title {
     color: #09183b;
     text-align: center;
-	height: 150px;
+	height: 200px;
 	overflow: hidden;
     font-size: 50px;
 	font-family: 'Jamie Oh! bold';
@@ -200,14 +200,15 @@ h3 {
 .header {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 50px;
+	margin-top: 20px;
 }
-.title img {
+.header img {
 	display: block;
 	width: 300px;
 	max-width: 90vw;
 	object-fit: cover; /* 영역에 맞게 이미지를 채움 */
     object-position: center bottom; /* 아래쪽을 기준으로 맞추어 윗부분이 잘림 */
-
 }
 footer img {
 	display: block;
