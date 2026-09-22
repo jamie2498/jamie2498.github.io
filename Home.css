@@ -213,6 +213,7 @@ h3 {
 	    padding-bottom: 70px;
     }
 }
+.box:hover img {transform: scale(1.1);}
 
 .header {
 	display: flex;
