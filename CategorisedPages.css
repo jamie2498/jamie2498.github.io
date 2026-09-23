@@ -341,3 +341,26 @@ footer {
 	height: 170px;
 	max-width: 100%;
 }
+
+
+.text-chapter {
+	color: #09183b;
+	font-size: 19px;
+	text-align: left;
+	margin-top: 40px;
+	font-weight: 450;
+}
+.text-title {
+	color: #132b64;
+	font-size: 15px;
+	text-align: left;
+	margin-top: 40px;
+	font-weight: 300;
+}
+hr {
+  border: none;              /* 기본 입체 효과 제거 */
+  height: 2px;               /* 선의 두께 */
+  background-color: #132b64; /* 선의 색상 */
+  margin: 20px 0;            /* 위아래 여백 */
+  width: 50%;
+}
