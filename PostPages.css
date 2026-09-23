@@ -52,20 +52,21 @@ a:hover {color: #f7a98a;}
 	position: relative;
 }
 
-.postbody {
+.post {
 	width: 70%;
 	margin-left:15%;
 	margin-right: 15%;
 	padding-top: 150px;
 	text-align: center;
-	font-size: 18px;
-	font-weight: 230;
-	
 }
 @media (max-width: 768px) {
 	.postbody {
 		padding-left: 200px;
 	}
+}
+.bodytext {
+	font-size: 18px;
+	font-weight: 230;
 }
 
 .grid-background {
