@@ -207,13 +207,12 @@ h3 {
 	margin-bottom: 50px;
 	margin-top: 20px;
 	height: 200px;
-	width: 300px;
 	overflow: hidden;
 }
 .header img {
 	display: block;
 	height: 100%;
-	width: auto;
+	width: 300px;
 	max-width: 90vw;
 	object-fit: cover;
     object-position: center;
