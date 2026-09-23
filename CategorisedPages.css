@@ -329,13 +329,7 @@ footer {
 	}
 }
 
-/*.header img {
-	display: block;
-	width: auto;
-	height: 170px;
-	max-width: 100%;
-}*/
-.title {
+.header img {
 	display: block;
 	width: auto;
 	height: 170px;
