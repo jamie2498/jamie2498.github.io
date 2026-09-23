@@ -328,7 +328,13 @@ footer {
 	}
 }
 
-.header img {
+/*.header img {
+	display: block;
+	width: auto;
+	height: 170px;
+	max-width: 100%;
+}*/
+.title {
 	display: block;
 	width: auto;
 	height: 170px;
