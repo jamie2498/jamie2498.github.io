@@ -82,7 +82,7 @@ a:hover {color: #f7a98a;}
 	}
 }
 .grid {
-	font-family: 'Jamie Oh! thin';
+	font-family: 'Noto Sans KR', 'Noto Sans JP','Noto Sans', sans-serif;
 	text-align: center;
 	color: white;
 	font-size: 15px;
@@ -156,6 +156,19 @@ a:hover {color: #f7a98a;}
     .Item9 {grid-column: 1/2; grid-row: 5/6; flex-basis: 100px; order:4;}
 }
 
-
+.four-img img {
+	height: 100%;
+	width:24%;
+	object-fit: cover;
+}
+.one-img img {
+	height: 100%;
+	width: 90%;
+}
+.three-img img {
+	height:100%;
+	width:30%;
+	object-fit: cover;
+}
 
 
