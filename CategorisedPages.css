@@ -72,7 +72,6 @@ a:hover {color: #f7a98a;}
 
 ul {
 	list-style: none;
-    font-family: 'Noto Sans KR', 'Noto Sans JP','Noto Sans', sans-serif;
 	text-align: left;
 	padding: 0px;
 	font-size: 17px;
@@ -164,7 +163,6 @@ li {
 
 
 .grid {
-	font-family: 'Noto Sans KR', 'Noto Sans JP','Noto Sans', sans-serif;
 	text-align: center;
 	width: calc(100% - 290px);
 	margin-left: 290px;
@@ -265,7 +263,6 @@ footer {
 	background-color: #09183b;
 	color: white;
 	text-align: left;
-	font-family: 'Noto Sans KR', 'Noto Sans JP','Noto Sans', sans-serif;
 	font-size: 12px;
 	opacity: 0.8;
 }
@@ -289,7 +286,6 @@ footer {
 	}
 }
 
-.right-footer {font-family: 'Noto Sans KR', 'Noto Sans JP','Noto Sans', sans-serif;}
 .left-footer {
 	width: 49%;
 	font-size: 55px;
