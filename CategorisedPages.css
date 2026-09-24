@@ -387,7 +387,7 @@ footer img {
 		height: 70px;
 		font-size: 8px;
 		padding-top: 5px;
-		padding-bottom: 3px;
+		padding-bottom: 5px;
 	}
 	footer img {
 		width: 60px;
@@ -412,11 +412,11 @@ footer img {
 }
 @media (max-width:768px) {
 	.right-footer {
-		bottom: 3px;
+		bottom: 2px;
 	}
 	.left-footer {
 		font-size: 45px;
-		bottom: 5px;
+		bottom: 1px;
 	}
 }
 h3 {
