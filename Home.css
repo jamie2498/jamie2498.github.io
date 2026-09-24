@@ -54,12 +54,6 @@ a:hover {color: #f7a98a;}
 	width: calc(100% - 50px);
 	margin: 0 auto;
 }
-@media (max-width: 2000px) {
-	.box {
-	    width: calc(100% - 50px);
-	    margin-bottom: 100px;
-    }
-}
 @media (max-width: 768px) {
 	.box {
 	    width: 100%;
@@ -186,14 +180,6 @@ h3 {
 }
 .title img {
 	width: 300px;
-}
-@media (max-width : 1279px){
-	.title {
-		font-size: 50px;
-	}
-	.title img {
-		width: 200px;
-	}
 }
 @media (max-width : 768px){
 	.title {
