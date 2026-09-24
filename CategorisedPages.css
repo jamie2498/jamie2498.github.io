@@ -182,41 +182,35 @@ img {
 	height: 100%;
 	width: 100%;
 }
-.Item1 {grid-column: 1/2; grid-row: 1/2; flex-basis: 350px; order:12;}
-.Item1 img {transition: all 0.12s linear;}
-.Item1:hover img {transform: scale(1.1);}
+.Item1, .Item2, .Item3,
+.Item4, .Item5, .Item6,
+.Item7, .Item8, .Item9 {
+    flex-basis: 350px;
+    overflow: hidden;    /* 추가 */
+}
 
-.Item2 {grid-column: 2/3; grid-row: 1/2; flex-basis: 350px; order:11;}
-.Item2 img {transition: all 0.12s linear;}
-.Item2:hover img {transform: scale(1.1);}
+.Item1 img, .Item2 img, .Item3 img,
+.Item4 img, .Item5 img, .Item6 img,
+.Item7 img, .Item8 img, .Item9 img {
+    transition: transform 0.12s linear;
+}
 
-.Item3 {grid-column: 3/4; grid-row: 1/2; flex-basis: 350px; order:10;}
-.Item3 img {transition: all 0.12s linear;}
-.Item3:hover img {transform: scale(1.1);}
+.Item1:hover img, .Item2:hover img, .Item3:hover img,
+.Item4:hover img, .Item5:hover img, .Item6:hover img,
+.Item7:hover img, .Item8:hover img, .Item9:hover img {
+    transform: scale(1.1);
+}
 
-.Item4 {grid-column: 1/2; grid-row: 2/3; flex-basis: 350px; order:9;}
-.Item4 img {transition: all 0.12s linear;}
-.Item4:hover img {transform: scale(1.1);}
-
-.Item5 {grid-column: 2/3; grid-row: 2/3; flex-basis: 350px; order:8;}
-.Item5 img {transition: all 0.12s linear;}
-.Item5:hover img {transform: scale(1.1);}
-
-.Item6 {grid-column: 3/4; grid-row: 2/3; flex-basis: 350px; order:7;}
-.Item6 img {transition: all 0.12s linear;}
-.Item6:hover img {transform: scale(1.1);}
-
-.Item7 {grid-column: 1/2; grid-row: 3/4; flex-basis: 350px; order:6;}
-.Item7 img {transition: all 0.12s linear;}
-.Item7:hover img {transform: scale(1.1);}
-
-.Item8 {grid-column: 2/3; grid-row: 3/4; flex-basis: 350px; order:5;}
-.Item8 img {transition: all 0.12s linear;}
-.Item8:hover img {transform: scale(1.1);}
-
-.Item9 {grid-column: 3/4; grid-row: 3/4; flex-basis: 350px; order:4;}
-.Item9 img {transition: all 0.12s linear;}
-.Item9:hover img {transform: scale(1.1);}
+/* grid-column, grid-row, order는 각자 값이 달라서 따로 유지 */
+.Item1 {grid-column: 1/2; grid-row: 1/2; order:12;}
+.Item2 {grid-column: 2/3; grid-row: 1/2; order:11;}
+.Item3 {grid-column: 3/4; grid-row: 1/2; order:10;}
+.Item4 {grid-column: 1/2; grid-row: 2/3; order:9;}
+.Item5 {grid-column: 2/3; grid-row: 2/3; order:8;}
+.Item6 {grid-column: 3/4; grid-row: 2/3; order:7;}
+.Item7 {grid-column: 1/2; grid-row: 3/4; order:6;}
+.Item8 {grid-column: 2/3; grid-row: 3/4; order:5;}
+.Item9 {grid-column: 3/4; grid-row: 3/4; order:4;}
 
 @media screen and (max-width:768px) {
 	.grid{
@@ -225,7 +219,6 @@ img {
 	    grid-auto-row: minmax(66px, auto);
 	    gap: 30px 20px;
 		font-size: 14px;
-
     	padding-top: 100px;
 	}
 	.Item1 {grid-column: 1/2; grid-row: 1/2; flex-basis: 300px; order:12;}

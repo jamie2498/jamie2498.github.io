@@ -130,7 +130,6 @@ a:hover {color: #f7a98a;}
 }
 
 ul {
-	font-family: 'Noto Sans KR', 'Noto Sans JP','Noto Sans', sans-serif;
 	list-style: none;
 	text-align: center;
 	margin: 0px;
@@ -235,7 +234,6 @@ footer {
 	background-color: #09183b;
 	color: white;
 	text-align: left;
-	font-family: 'Noto Sans KR', 'Noto Sans JP','Noto Sans', sans-serif;
 	font-size: 12px;
 	opacity: 0.8;
 }
@@ -259,7 +257,6 @@ footer {
 	}
 }
 
-.right-footer {font-family: 'Noto Sans KR', 'Noto Sans JP','Noto Sans' sans-serif;}
 .left-footer {
 	width: 49%;
 	font-size: 55px;
