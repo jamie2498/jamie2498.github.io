@@ -185,23 +185,32 @@ img {
 	object-fit: cover;
 	object-position: center;  
 }
+.thumb {
+    height: 350px;
+    overflow: hidden;
+}
+
+.thumb img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.12s linear;
+}
 .Item1, .Item2, .Item3,
 .Item4, .Item5, .Item6,
 .Item7, .Item8, .Item9 {
     flex-basis: 350px;
-	height: 201.55px;
-    overflow: hidden;
 }
 
-.Item1 img, .Item2 img, .Item3 img,
-.Item4 img, .Item5 img, .Item6 img,
-.Item7 img, .Item8 img, .Item9 img {
-    transition: transform 0.12s linear;
-}
-
-.Item1:hover img, .Item2:hover img, .Item3:hover img,
-.Item4:hover img, .Item5:hover img, .Item6:hover img,
-.Item7:hover img, .Item8:hover img, .Item9:hover img {
+.Item1:hover .thumb img,
+.Item2:hover .thumb img,
+.Item3:hover .thumb img,
+.Item4:hover .thumb img,
+.Item5:hover .thumb img,
+.Item6:hover .thumb img,
+.Item7:hover .thumb img,
+.Item8:hover .thumb img,
+.Item9:hover .thumb img {
     transform: scale(1.1);
 }
 
