@@ -396,23 +396,29 @@ footer img {
 	width: 49%;
 	float: right;
 	align-items: center;
+	margin-left: 3px;
 }
-
 .left-footer {
 	width: 49%;
 	font-size: 55px;
 	font-family: 'Jamie Oh! bold';
 	float: left;
 	bottom: 12px;
+	margin-right: 3px;
 	display: flex;
 	justify-content: flex-end;
 }
 @media (max-width:768px) {
+	.right-footer {
+		bottom: 3px;
+	}
 	.left-footer {
 		font-size: 45px;
-		bottom: 10px;
+		bottom: 5px;
 	}
 }
+
+
 
 .text-list {
 	text-align: left;

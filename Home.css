@@ -227,7 +227,7 @@ footer img {
 	width: 49%;
 	float: right;
 	align-items: center;
-	margin-left: 5px;
+	margin-left: 3px;
 }
 .left-footer {
 	width: 49%;
@@ -235,7 +235,7 @@ footer img {
 	font-family: 'Jamie Oh! bold';
 	float: left;
 	bottom: 12px;
-	margin-right: 5px;
+	margin-right: 3px;
 	display: flex;
 	justify-content: flex-end;
 }
