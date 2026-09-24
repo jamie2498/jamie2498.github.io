@@ -302,10 +302,12 @@ img {
 		height: 70px;
 		font-size: 25px;
 		background-color: #f4f2f0;
+		object-fit: cover;
+		object-position: center;
 	}
 	.header img {
-		max-width: 250px;
-		height: 85px;
+		max-width: 200px;
+		height: 83px;
 		object-fit: cover;
 		object-position: center;
 	}
