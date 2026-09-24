@@ -346,11 +346,10 @@ footer img {
 }
 @media (max-width:768px) {
 	.right-footer {
-		bottom: 2px;
+		bottom: 3px;
 	}
 	.left-footer {
 		font-size: 45px;
-		bottom: 1px;
 	}
 }
 h3 {

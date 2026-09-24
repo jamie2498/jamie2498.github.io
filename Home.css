@@ -101,7 +101,7 @@ a:hover {color: #f7a98a;}
 @media (max-width : 768px){
 	.category{
 		font-size: 13px;
-		margin-bottom: 15px;
+		margin-bottom: 13px;
 		font-weight: 460;
 	}
 }
@@ -229,11 +229,10 @@ footer img {
 }
 @media (max-width:768px) {
 	.right-footer {
-		bottom: 2px;
+		bottom: 3px;
 	}
 	.left-footer {
 		font-size: 45px;
-		bottom: 1px;
 	}
 }
 h3 {
