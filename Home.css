@@ -128,14 +128,7 @@ li {margin: 10px;}
 	}
 }*/
 
-h3 {
-  font-weight: 350;
-}
-@media (max-width: 768px) {
-	h3 {
-	    font-weight: 280;
-	}
-}
+
 
 #wrap {
 	min-height:100vh;
@@ -248,4 +241,11 @@ footer img {
 		bottom: 5px;
 	}
 }
-
+h3 {
+  font-weight: 400;
+}
+@media (max-width: 768px) {
+	h3 {
+	    font-weight: 280;
+	}
+}
