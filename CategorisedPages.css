@@ -344,15 +344,15 @@ footer {
 	display: inline-block;
 }
 
-.text-index {
+.text-list {
 	text-align: left;
-	width: calc(100% - 290px);
 	margin-left: 290px;
 	padding-top: 150px;
+	width: calc(100% - 290px);
 	display: flex;
-	flex-direction: row;
+	/*flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: flex-start;
+	justify-content: flex-start;*/
 }
 .text-chapter {
 	color: #09183b;
