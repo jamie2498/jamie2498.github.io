@@ -97,10 +97,10 @@ li {
         display: block;
         position: absolute;
 		float: right;
-        margin-right: 24px;
+        right: 22px;
         margin-top: 40px;
-        width: 25px;
-        height: 18px;
+        width: 24px;
+        height: 17px;
         cursor: pointer;
     }
     #openMenuLabel span {		/*메뉴 작대기 세 개*/
