@@ -48,26 +48,6 @@ a:hover {color: #f7a98a;}
 	margin-right: 22px;
 }
 .Work:hover img, .Text:hover img, .About:hover img {transform: scale(1.1);}
-
-@media (max-width:768px) {
-	.Work, .Text, .About {
-		width:100%;
-		padding-bottom: 50px;
-		margin-left:0px;
-		float: none;
-	}
-	.thumb {
-		height: 300px;
-	    overflow: hidden;
-	}
-	.thumb img {
-		height: 100%;
-		width: 100%;
-		object-fit: cover;
-    	transition: all 0.12s linear;
-	}
-} 
-
 .thumb {
 	height: 400px;
     overflow: hidden;
@@ -78,6 +58,24 @@ a:hover {color: #f7a98a;}
 	object-fit: cover;
     transition: all 0.12s linear;
 }
+@media (max-width:768px) {
+	.Work, .Text, .About {
+		width:18%;
+		margin-left:5px;
+		margin-right:5px;
+	}
+	.thumb {
+		height: 150px;
+	    overflow: hidden;
+	}
+	.thumb img {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+    	transition: all 0.12s linear;
+	}
+} 
+
 
 .category {
 	text-align: center;
@@ -117,31 +115,6 @@ h3 {
 	position: relative;
 }
 
-
-
-.title {
-    color: #09183b;
-    text-align: center;
-	overflow: hidden;
-    font-size: 50px;
-	font-family: 'Jamie Oh! bold';
-}
-.title img {
-	width: 300px;
-}
-@media (max-width : 1279px){
-	.title {
-		font-size: 50px;
-	}
-}
-@media (max-width : 768px){
-	.title {
-		font-size: 30px;
-		padding-bottom: 25%;
-		padding-top: 10%;
-	}
-}
-
 .box {
     display: flex;
     justify-content: center;
@@ -150,14 +123,14 @@ h3 {
 }
 @media (max-width: 2000px) {
 	.box {
-	    width: 100%;
-	    padding-bottom: 420px;
+	    width: calc(100% - 50px);
+	    margin-bottom: 100px;
     }
 }
 @media (max-width: 768px) {
 	.box {
-	    width: 100%;
-	    padding-bottom: 70px;
+	    width: calc(100% - 20px);
+	    margin-bottom: 80px;
     }
 }
 
@@ -176,6 +149,44 @@ h3 {
 	max-width: 90vw;
 	object-fit: cover;
     object-position: center;
+}
+@media (max-width : 768px){
+	.header {
+		font-size: 30px;
+		margin-bottom: 60px;
+		margin-top: 30px;
+		height: 150px;
+	}
+	.header img {
+		width: 200px;
+	}
+}
+
+.title {
+    color: #09183b;
+    text-align: center;
+	overflow: hidden;
+    font-size: 50px;
+	font-family: 'Jamie Oh! bold';
+}
+.title img {
+	width: 300px;
+}
+@media (max-width : 1279px){
+	.title {
+		font-size: 50px;
+	}
+	.title img {
+		width: 200px;
+	}
+}
+@media (max-width : 768px){
+	.title {
+		font-size: 30px;
+	}
+	.title img {
+		width: 200px;
+	}
 }
 
 footer {
