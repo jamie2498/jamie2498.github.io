@@ -297,14 +297,16 @@ img {
 }
 @media (max-width: 768px) {
 	.header {
-		width: (100% - 46px);
+		/*width: calc(100% - 46px);*/
 		height: 70px;
 		font-size: 25px;
 		background-color: #f4f2f0;
 	}
 	.header img {
 		max-width: 250px;
-		height: 70px;
+		height: 40px;
+		object-fit: cover;
+		object-position: center;
 	}
 }
 
