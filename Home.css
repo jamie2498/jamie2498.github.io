@@ -158,21 +158,21 @@ li {margin: 10px;}
 	}
 }
 
-.title {
+.header-name {
     color: #09183b;
     text-align: center;
 	overflow: hidden;
     font-size: 50px;
 	font-family: 'Jamie Oh! bold';
 }
-.title img {
+.header-name img {
 	width: 300px;
 }
 @media (max-width : 768px){
-	.title {
+	.header-name {
 		font-size: 30px;
 	}
-	.title img {
+	.header-name img {
 		width: 200px;
 	}
 }

@@ -282,9 +282,12 @@ img {
 		font-size: 25px;
 		padding-bottom: 60px;
 	}
-	.header img {
-		height: 90px;
+	.header-name {
+		font-size: 30px;
+	}
+	.header-name img {
 		max-width: 200px;
+		height: 90px;
 	}
 }
 
