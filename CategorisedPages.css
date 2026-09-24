@@ -174,7 +174,7 @@ li {
 	justify-content: flex-start;
 	place-items: center;
 	grid-template-columns: repeat(3, 1fr);
-	grid-auto-row: minmax(100px, auto);
+	grid-auto-rows: minmax(100px, auto);
 	gap: 35px 25px;
 	color: #09183b;
 }
@@ -186,7 +186,7 @@ img {
 	object-position: center;  
 }
 .thumb {
-    height: 205px;
+    height: 210px;
 	margin-bottom: 10px;
     overflow: hidden;
 }
@@ -215,7 +215,6 @@ img {
     transform: scale(1.1);
 }
 
-/* grid-column, grid-row, order는 각자 값이 달라서 따로 유지 */
 .Item1 {grid-column: 1/2; grid-row: 1/2; order:12;}
 .Item2 {grid-column: 2/3; grid-row: 1/2; order:11;}
 .Item3 {grid-column: 3/4; grid-row: 1/2; order:10;}
@@ -228,41 +227,30 @@ img {
 
 @media screen and (max-width:768px) {
 	.grid{
-		width: 310px;
+		width: calc(100% - 100px);
+		flex-direction: column;
 		grid-template-columns: repeat(1, 1fr);
-	    grid-auto-row: minmax(66px, auto);
-	    gap: 30px 20px;
+	    grid-auto-rows: minmax(66px, auto);
+	    gap: 20px 20px;
 		font-size: 14px;
     	padding-top: 100px;
+		margin: 0 auto;
 	}
 	.Item1, .Item2, .Item3,
 	.Item4, .Item5, .Item6,
 	.Item7, .Item8, .Item9 {
-		flex-basis: 350px;
+		flex-basis: 300px;
 	}
 
-	.Item1:hover .thumb img,
-	.Item2:hover .thumb img,
-	.Item3:hover .thumb img,
-	.Item4:hover .thumb img,
-	.Item5:hover .thumb img,
-	.Item6:hover .thumb img,
-	.Item7:hover .thumb img,
-	.Item8:hover .thumb img,
-	.Item9:hover .thumb img {
-	    transform: scale(1.1);
-	}
-
-	/* grid-column, grid-row, order는 각자 값이 달라서 따로 유지 */
 	.Item1 {grid-column: 1/2; grid-row: 1/2; order:12;}
-	.Item2 {grid-column: 2/3; grid-row: 1/2; order:11;}
-	.Item3 {grid-column: 3/4; grid-row: 1/2; order:10;}
-	.Item4 {grid-column: 1/2; grid-row: 2/3; order:9;}
-	.Item5 {grid-column: 2/3; grid-row: 2/3; order:8;}
-	.Item6 {grid-column: 3/4; grid-row: 2/3; order:7;}
-	.Item7 {grid-column: 1/2; grid-row: 3/4; order:6;}
-	.Item8 {grid-column: 2/3; grid-row: 3/4; order:5;}
-	.Item9 {grid-column: 3/4; grid-row: 3/4; order:4;}
+	.Item2 {grid-column: 1/2; grid-row: 2/3; order:11;}
+	.Item3 {grid-column: 1/2; grid-row: 3/4; order:10;}
+	.Item4 {grid-column: 1/2; grid-row: 4/5; order:9;}
+	.Item5 {grid-column: 1/2; grid-row: 5/6; order:8;}
+	.Item6 {grid-column: 1/2; grid-row: 6/7; order:7;}
+	.Item7 {grid-column: 1/2; grid-row: 7/8; order:6;}
+	.Item8 {grid-column: 1/2; grid-row: 8/9; order:5;}
+	.Item9 {grid-column: 1/2; grid-row: 9/10; order:4;}
 	}
 
 #wrap {
@@ -374,17 +362,18 @@ h3 {
 	}
 }
 
-/* !!!grid랑 margin/padding/width 동기화!!! */
+/* !!!grid의 margin/padding/width 동기화!!! */
 .text-list {
 	text-align: left;
-	margin-left: 290px;
+	margin-left: (290px + 30px);
 	padding-top: 150px;
 	width: calc(100% - 290px);
 }
 .text-chapter {
 	color: #09183b;
 	font-size: 19px;
-	margin-top: 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	font-weight: 450;
 }
 .text-title {
@@ -397,5 +386,5 @@ hr {
   height: 1px;         
   background-color: #132b64; 
   margin: 20px;
-  width: 50%;
+  width: (100% - 290px);
 }
