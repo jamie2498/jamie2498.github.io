@@ -94,6 +94,9 @@ li {
 #openMenu{
     display: none;
 }
+#showMenu{
+    display: none;
+}
 @media (max-width: 768px) {
     #openMenuLabel {			/*메뉴 버튼 위치*/
         display: block;
@@ -127,8 +130,8 @@ li {
 	#showMenu {			/*메뉴보드(열었을때)*/
 		width:100%;
         height: 100%;
-		margin-top: 90px;
-		padding-left: 20px;
+		margin-top: 60px;
+		padding-left: 30px;
 		padding-right: 30px;
 		background-color: #09183b;
 		opacity: 0.8;
