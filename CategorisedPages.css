@@ -304,7 +304,7 @@ img {
 	}
 	.header img {
 		max-width: 250px;
-		height: 40px;
+		height: 85px;
 		object-fit: cover;
 		object-position: center;
 	}
