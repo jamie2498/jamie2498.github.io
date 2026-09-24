@@ -56,9 +56,13 @@ a:hover {color: #f7a98a;}
 }
 .mobile-box{
 	margin-top: 60px;
-	left: 40px;
 	background-color: #09183b;
 	opacity: 0.8;
+}
+@media (max-width : 768px){
+	.mobile-box {
+		left: 40px;
+	}
 }
 
 
