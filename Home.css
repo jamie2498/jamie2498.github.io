@@ -42,7 +42,6 @@ body {
 
 section {
 	padding-bottom: 110px;
-	margin-bottom: 300px;
 }
 
 a {text-decoration: none; color: inherit;}
@@ -54,6 +53,7 @@ a:hover {color: #f7a98a;}
     display: flex;
     justify-content: center;
 	width: calc(100% - 50px);
+	margin-bottom: 200px;
 	margin: 0 auto;
 }
 @media (max-width: 768px) {
