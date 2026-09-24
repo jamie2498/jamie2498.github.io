@@ -242,7 +242,6 @@ footer img {
 	float: right;
 	align-items: center;
 }
-
 .left-footer {
 	width: 49%;
 	font-size: 55px;
@@ -253,9 +252,12 @@ footer img {
 	justify-content: flex-end;
 }
 @media (max-width:768px) {
+	.right-footer {
+		bottom: 3px;
+	}
 	.left-footer {
 		font-size: 45px;
-		bottom: 10px;
+		bottom: 5px;
 	}
 }
 
