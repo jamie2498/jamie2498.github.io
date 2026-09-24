@@ -364,20 +364,20 @@ h3 {
 /* !!!grid의 margin/padding/width 동기화!!! */
 .text-list {
 	text-align: left;
-	margin-left: (290px + 30px);
+	margin-left: 290px;
 	padding-top: 150px;
-	width: calc(100% - 290px);
+	width: calc(100% - 580px);
 }
 .text-chapter {
 	color: #09183b;
 	font-size: 19px;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin: 30px;
 	font-weight: 450;
 }
 .text-title {
 	font-size: 15px;
 	margin-top: 40px;
+	margin-left: 30px;
 	font-weight: 300;
 }
 hr {
