@@ -104,6 +104,7 @@ li {
         width: 24px;
         height: 17px;
         cursor: pointer;
+		background-color: #f4f2f0;
     }
     #openMenuLabel span {		/*메뉴 작대기 세 개*/
         display: block;
@@ -277,11 +278,12 @@ img {
 }
 @media (max-width: 768px) {
 	.header {
-		width: (100% - 50px);
+		width: (100% - 46px);
 	    padding-top: 0px;
     	padding-left: 0px;
 		font-size: 25px;
 		padding-bottom: 0px;
+		background-color: #f4f2f0;
 	}
 	.header img {
 		max-width: 200px;
