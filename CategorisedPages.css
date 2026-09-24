@@ -331,7 +331,12 @@ footer {
 	height: 170px;
 	max-width: 300px;
 }
-
+.title {
+	display: inline-block;
+}
+.title a {
+	display: inline-block;
+}
 
 .text-index {
 	text-align: left;
