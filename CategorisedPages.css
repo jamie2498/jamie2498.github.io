@@ -98,7 +98,7 @@ li {
 @media (max-width: 768px) {
     #openMenuLabel {			/*메뉴 버튼 위치*/
         display: block;
-        position: fixed;
+        position: absolute;
 		float: right;
         right: 22px;
         margin-top: 40px;
