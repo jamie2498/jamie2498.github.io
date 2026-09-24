@@ -186,7 +186,8 @@ img {
 	object-position: center;  
 }
 .thumb {
-    height: 350px;
+    height: 201.55px;
+	margin-bottom: 10px;
     overflow: hidden;
 }
 
