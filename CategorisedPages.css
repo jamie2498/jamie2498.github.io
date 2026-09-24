@@ -282,6 +282,7 @@ img {
 @media (max-width: 768px) {
 	.header {
 		width: (100% - 46px);
+		height: 70px;
 	    padding-top: 0px;
     	padding-left: 0px;
 		font-size: 25px;
@@ -290,7 +291,7 @@ img {
 	}
 	.header img {
 		max-width: 200px;
-		height: 50px;
+		height: 70px;
 	}
 }
 
