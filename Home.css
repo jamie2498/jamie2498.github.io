@@ -42,10 +42,10 @@ a:visited {text-decoration: none;}
 a:hover {color: #f7a98a;}
 
 .Work, .Text, .About {
-    width: 25%;
+    width: 18%;
     text-align: center;
-	margin-left: 15px;
-	margin-right: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 .Work:hover img, .Text:hover img, .About:hover img {transform: scale(1.1);}
 
@@ -69,7 +69,7 @@ a:hover {color: #f7a98a;}
 } 
 
 .thumb {
-	height: 550px;
+	height: 400px;
     overflow: hidden;
 }
 .thumb img {
