@@ -81,19 +81,13 @@ a:hover {color: #f7a98a;}
 }
 @media (max-width:768px) {
 	.Work, .Text, .About {
-		width:22%;
+		width:30%;
 		margin-left:5px;
 		margin-right:5px;
 	}
 	.thumb {
 		height: 150px;
 	    overflow: hidden;
-	}
-	.thumb img {
-		height: 100%;
-		width: 100%;
-		object-fit: cover;
-    	transition: all 0.12s linear;
 	}
 } 
 
