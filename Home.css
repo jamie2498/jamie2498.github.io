@@ -62,7 +62,7 @@ a:hover {color: #f7a98a;}
 }
 @media (max-width: 768px) {
 	.box {
-	    width: calc(100% - 10px);
+	    width: 100%;
 	    margin-bottom: 80px;
     }
 }
