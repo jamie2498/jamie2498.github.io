@@ -368,18 +368,18 @@ h3 {
 	padding-top: 150px;
 	width: calc(100% - 580px);
 }
-.text-title {
-	font-size: 15px;
-	margin-top: 40px;
-	margin-left: 30px;
-	font-weight: 300;
-}
 .text-chapter {
 	color: #09183b;
 	font-size: 19px;
+	margin-top: 40px;
 	margin-left: 30px;
-	margin-top: 25px;
 	font-weight: 450;
+}
+.text-title {
+	font-size: 15px;
+	margin-top: 25px;
+	margin-left: 30px;
+	font-weight: 300;
 }
 hr {
   border: none;             
