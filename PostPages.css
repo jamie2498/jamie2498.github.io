@@ -61,15 +61,20 @@ a:hover {color: #f7a98a;}
 	padding-top: 150px;
 	text-align: center;
 }
-@media (max-width: 768px) {
-	.postbody {
-		padding-left: 200px;
-	}
-}
 .bodytext {
 	font-size: 18px;
 	font-weight: 290;
 }
+@media (max-width: 768px) {
+	.post {
+		padding-left: 200px;
+	}
+	.bodytext {
+		font-size: 12px;
+		font-weight: 260;
+	}
+}
+
 
 /*.grid-background {
     width: 70%;
