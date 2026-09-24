@@ -297,15 +297,12 @@ img {
 	.header {
 		width: (100% - 46px);
 		height: 70px;
-	    padding-top: 0px;
-    	padding-left: 0px;
 		font-size: 25px;
-		padding-bottom: 0px;
 		background-color: #f4f2f0;
 	}
 	.header img {
-		max-width: 200px;
-		height: 80px;
+		max-width: 250px;
+		height: 70px;
 	}
 }
 
