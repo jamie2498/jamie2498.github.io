@@ -50,7 +50,7 @@ a:hover {color: #f7a98a;}
 	position: fixed;
 }
 @media (max-width : 768px){
-	.box{
+	.mobile-box{
 		display: none;
 		margin-top: 90px;
 		padding-left: 20px;
