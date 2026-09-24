@@ -374,16 +374,12 @@ h3 {
 	}
 }
 
-
+/* !!!grid랑 margin/padding/width 동기화!!! */
 .text-list {
 	text-align: left;
 	margin-left: 290px;
 	padding-top: 150px;
 	width: calc(100% - 290px);
-	display: flex;
-	/*flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-start;*/
 }
 .text-chapter {
 	color: #09183b;
@@ -397,9 +393,9 @@ h3 {
 	font-weight: 300;
 }
 hr {
-  border: none;              /* 기본 입체 효과 제거 */
-  height: 1px;               /* 선의 두께 */
-  background-color: #132b64; /* 선의 색상 */
-  margin: 20px;            /* 위아래 여백 */
+  border: none;             
+  height: 1px;         
+  background-color: #132b64; 
+  margin: 20px;
   width: 50%;
 }
