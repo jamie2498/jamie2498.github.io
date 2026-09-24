@@ -40,7 +40,10 @@ body {
 	}
 } 
 
-section {padding-bottom: 110px;}
+section {
+	padding-bottom: 110px;
+	margin-bottom: 300px;
+}
 
 a {text-decoration: none; color: inherit;}
 a:visited {text-decoration: none;}
@@ -50,7 +53,7 @@ a:hover {color: #f7a98a;}
 .box {
     display: flex;
     justify-content: center;
-    bottom: 300px;
+    margin-bottom: 300px;
 	width: calc(100% - 50px);
 	margin: 0 auto;
 }
