@@ -360,6 +360,8 @@ footer img {
 		padding-top: 16px;
 	}
 }*/
+
+/* !!!footer, h3는 내용 바뀌면 Home.css에 똑같이 복붙하기!!! */
 footer {
 	width: 100%;
 	height: 120px;
