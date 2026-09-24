@@ -28,6 +28,9 @@ body {
 	font-weight: 350;
     margin: 0px;
 	padding: 0px;
+	color: #132b64;
+	background-color: #e8e6e3;
+	/*background-color: #ebeef0;*/
 }
 section {padding-bottom: 200px;}
 
@@ -43,7 +46,6 @@ a:hover {color: #f7a98a;}
 	margin-bottom: 10px;
 	margin-top: 125px;
 	position: fixed;
-	background-color: white;
 }
 @media (max-width : 768px){
 	.box{
@@ -78,7 +80,6 @@ ul {
 	font-weight: 240;
 }
 li {
-	color: #132b64;
 	margin-bottom: 6px;
 }
 @media (max-width : 768px){
@@ -181,12 +182,15 @@ li {
 img {
 	height: 100%;
 	width: 100%;
+	object-fit: cover;
+	object-position: center;  
 }
 .Item1, .Item2, .Item3,
 .Item4, .Item5, .Item6,
 .Item7, .Item8, .Item9 {
     flex-basis: 350px;
-    overflow: hidden;    /* 추가 */
+	height: 201.55px;
+    overflow: hidden;
 }
 
 .Item1 img, .Item2 img, .Item3 img,
@@ -311,7 +315,6 @@ footer {
 		height: 1px;
 	    padding-top: 30px;
     	padding-left: 20px;
-		background-color: white;
 		opacity: 0.8;
 		font-size: 25px;
 		padding-bottom: 60px;
@@ -348,7 +351,6 @@ footer {
 	font-weight: 450;
 }
 .text-title {
-	color: #132b64;
 	font-size: 15px;
 	margin-top: 40px;
 	font-weight: 300;

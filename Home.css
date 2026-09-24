@@ -30,43 +30,16 @@ body {
 	font-weight: 150;
 	margin: 0px;
 	padding: 0px;
+	color: #132b64;
+	background-color: #e8e6e3;
+	/*background-color: #ebeef0;*/
 }
 
 section {padding-bottom: 110px;}
 
-
-
 a {text-decoration: none; color: inherit;}
 a:visited {text-decoration: none;}
 a:hover {color: #f7a98a;}
-
-
-/*.Work {
-    width: 30%;
-    text-align: center;
-    float: left;
-	display: flex;
-	justify-content: center;	
-    margin-left:14%;
-}
-
-.Text {
-    width: 30%;
-    text-align: center;
-    margin: 0 auto;
-	display: flex;
-	justify-content: center;	
-    margin-left:14%;
-}
-
-.About {
-    width: 30%;
-    text-align: center;
-    float: right;
-	display: flex;
-	justify-content: center;
-    margin-left:14%;
-}*/
 
 .Work, .Text, .About {
     width: 25%;
@@ -74,12 +47,6 @@ a:hover {color: #f7a98a;}
 	margin-left: 15px;
 	margin-right: 15px;
 }
-/*.Work img, .Text img, .About img {
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
-	transition: all 0.12s linear;
-}*/
 .Work:hover img, .Text:hover img, .About:hover img {transform: scale(1.1);}
 
 @media (max-width:768px) {
@@ -99,10 +66,6 @@ a:hover {color: #f7a98a;}
 		object-fit: cover;
     	transition: all 0.12s linear;
 	}
-	/*.Work img, .Text img, .About img {
-		width: 100%;
-		object-fit: cover;
-	}*/
 } 
 
 .thumb {
@@ -117,7 +80,6 @@ a:hover {color: #f7a98a;}
 }
 
 .category {
-    color: #132b64;
 	text-align: center;
 	font-size: 23px;
 	font-weight: 485;
@@ -136,7 +98,6 @@ ul {
 	padding: 0px;
 	font-size: 19px;
 	font-weight: 225;
-	color: #132b64;
 }
 li {margin: 10px;}
 
