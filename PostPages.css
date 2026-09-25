@@ -26,7 +26,8 @@
 
 body {
 	font-family: 'Noto Sans KR', 'Noto Sans JP','Noto Sans', sans-serif;
-    margin: 0px;
+    font-weight: 350;
+	margin: 0px;
 	padding: 0px;
 	color: #132b64;
 	background-color: #f4f2f0;
