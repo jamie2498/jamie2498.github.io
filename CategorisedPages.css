@@ -195,7 +195,7 @@ li {
 
 .grid {
 	text-align: center;
-	width: calc(100% - 100px);
+	width: calc(100% - 580px);
 	margin: 0 auto 200px auto;
 	padding-top: 150px;
 	display: flex;
@@ -396,10 +396,8 @@ h3 {
 /* !!!grid의 margin/padding/width 동기화!!! */
 .text-list {
 	text-align: left;
-	/*margin-left: 290px;*/
 	padding-top: 150px;
-	width: 75%;
-	/*width: calc(100% - 580px);*/
+	width: calc(100% - 580px);
 	margin: 0 auto 200px auto;
 }
 @media (max-width: 768px) {
