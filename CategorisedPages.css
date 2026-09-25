@@ -195,8 +195,8 @@ li {
 
 .grid {
 	text-align: center;
-	width: 100%;
-	margin: 0 290px 200px 290px;
+	width: calc(100% - 100px);
+	margin: 0 auto 200px auto;
 	padding-top: 150px;
 	display: flex;
 	flex-direction: row;
