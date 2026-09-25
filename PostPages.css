@@ -45,35 +45,31 @@ a:hover {color: #f7a98a;}
 	position: relative;
 }
 
+/*grid, text-list랑 width, margin-bottom 통일*/
 .post {
-	width: 70%;
-	margin-left:15%;
-	margin-right: 15%;
-	padding-top: 150px;
-	text-align: center;
-}
-.bodytext {
-	font-size: 18px;
-	font-weight: 290;
+	width: calc(100% - 580);
+	margin: 150px auto 200px auto;
+	text-align: left;
 }
 @media (max-width: 768px) {
 	.post {
 		padding-top: 100px;
-		width: 100%;
-	}
-	.bodytext {
-		font-size: 12px;
-		font-weight: 260;
-	}
+		width: 75%;
+	}	
 }
 
 .project-title {
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: 500;
+	margin-bottom: 100px;
 }
 .subtitle {
 	font-size: 24px;
 	font-weight: 350;
+}
+.bodytext {
+	font-size: 16px;
+	font-weight: 290;
 }
 @media (max-width: 768px) {
 	.project-title {
@@ -83,6 +79,10 @@ a:hover {color: #f7a98a;}
 	.subtitle {
 		font-size: 20px;
 		font-weight: 320;
+	}
+	.bodytext {
+		font-size: 12px;
+		font-weight: 260;
 	}
 }
 
