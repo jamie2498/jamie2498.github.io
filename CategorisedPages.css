@@ -49,27 +49,18 @@ a:hover {color: #f7a98a;}
 	margin-top: 125px;
 	position: fixed;
 }
-.mobile-box {
-	width: 100% ;
-	margin-top: 60px;
-	background-color: #09183b;
-	opacity: 0.8;
-	left: 50px;
-}
 @media (max-width : 768px){
 	.box {
 		display: none;
 	}
-	/*.mobile-box {
+	.mobile-box {
 		width: 100% ;
 		margin-top: 60px;
 		background-color: #09183b;
 		opacity: 0.8;
 		left: 50px;
-	}*/
+	}
 }
-
-
 
 .category {
 	color: #09183b;
@@ -79,7 +70,7 @@ a:hover {color: #f7a98a;}
 	font-weight: 500;
 }
 @media (max-width : 768px){
-	.category{
+	.mobile-box .category{
 		font-size: 14px;
 		color: #f4f2f0;
 	}
@@ -96,7 +87,14 @@ li {
 	margin-bottom: 6px;
 }
 @media (max-width : 768px){
-	li{
+	.mobile-box ul {
+		list-style: none;
+		text-align: left;
+		padding: 0px;
+		font-size: 17px;
+		font-weight: 240;
+	}
+	.mobile-box li{
 		font-size: 12px;
 		color: #f4f2f0ef;
 	}
