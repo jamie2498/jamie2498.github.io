@@ -62,7 +62,7 @@ a:hover {color: #f7a98a;}
 .project-title {
 	font-size: 30px;
 	font-weight: 500;
-	margin-bottom: 30px;
+	margin-bottom: 55px;
 }
 .subtitle {
 	font-size: 24px;
@@ -80,9 +80,6 @@ a:hover {color: #f7a98a;}
     background-color: #132b64; 
     margin-top: 15px;
 	margin-bottom: 30px;
-}
-br {
-	
 }
 @media (max-width: 768px) {
 	.project-title {
