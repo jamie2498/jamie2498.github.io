@@ -51,12 +51,13 @@ a:hover {color: #f7a98a;}
 	padding-top: 150px;
 	margin: 0 auto 200px auto;
 	text-align: left;
+	overflow: hidden;
 }
 .post img {
-	max-height: 130px;
-	width: 100px;
+	max-height: 280px;
+	width: 250px;
 	object-fit: cover;
-	object-position: center;
+	object-position: bottom;
 }
 @media (max-width: 768px) {
 	.post {
