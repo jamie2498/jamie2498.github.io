@@ -207,7 +207,6 @@ li {
 	grid-auto-rows: minmax(100px, auto);
 	gap: 35px 25px;
 	color: #09183b;
-	
 }
 
 img {
@@ -258,14 +257,14 @@ img {
 
 @media screen and (max-width:768px) {
 	.grid{
-		width: calc(100% - 100px);
+		width: 75%;
 		flex-direction: column;
 		grid-template-columns: repeat(1, 1fr);
 	    grid-auto-rows: minmax(66px, auto);
 	    gap: 20px 20px;
 		font-size: 14px;
     	padding-top: 100px;
-		margin: 0 auto;
+		margin: 0 auto 80px auto;
 	}
 	.Item1, .Item2, .Item3,
 	.Item4, .Item5, .Item6,
