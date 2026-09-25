@@ -396,9 +396,10 @@ h3 {
 /* !!!grid의 margin/padding/width 동기화!!! */
 .text-list {
 	text-align: left;
-	margin-left: 290px;
+	/*margin-left: 290px;*/
 	padding-top: 150px;
 	width: calc(100% - 580px);
+	margin: 0 auto 200px auto;
 }
 
 .text-chapter {
