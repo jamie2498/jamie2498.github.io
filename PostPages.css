@@ -52,6 +52,12 @@ a:hover {color: #f7a98a;}
 	margin: 0 auto 200px auto;
 	text-align: left;
 }
+.post img {
+	height: 200px;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+}
 @media (max-width: 768px) {
 	.post {
 		width: 75%;
