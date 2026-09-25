@@ -45,10 +45,11 @@ a:hover {color: #f7a98a;}
 	position: relative;
 }
 
-/*grid, text-list랑 width, margin-bottom 통일*/
+/*!!!grid, text-list의 width, margin, padding-top 통일!!!*/
 .post {
 	width: calc(100% - 580px);
-	margin: 150px auto 200px auto;
+	padding-top: 150px;
+	margin: 0 auto 200px auto;
 	text-align: left;
 }
 @media (max-width: 768px) {
