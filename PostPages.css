@@ -67,10 +67,12 @@ a:hover {color: #f7a98a;}
 .subtitle {
 	font-size: 24px;
 	font-weight: 350;
+	margin-bottom: 50px;
 }
 .bodytext {
 	font-size: 18px;
 	font-weight: 300;
+	margin-bottom: 50px;
 }
 @media (max-width: 768px) {
 	.project-title {
