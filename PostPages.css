@@ -47,7 +47,7 @@ a:hover {color: #f7a98a;}
 
 /*grid, text-list랑 width, margin-bottom 통일*/
 .post {
-	width: calc(100% - 580);
+	width: calc(100% - 580px);
 	margin: 150px auto 200px auto;
 	text-align: left;
 }
