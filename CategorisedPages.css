@@ -410,12 +410,13 @@ h3 {
 	color: #09183b;
 	font-size: 19px;
 	margin-top: 40px;
+	margin-bottom: 5px;
 	margin-left: 10px;
 	font-weight: 450;
 }
 .text-title {
 	font-size: 15px;
-	margin-top: 15px;
+	margin-top: 10px;
 	margin-left: 10px;
 	font-weight: 300;
 }
@@ -423,7 +424,7 @@ hr {
     border: none;             
     height: 1px;         
     background-color: #132b64; 
-    margin-top: 40px;
+    margin-top: 35px;
 }
 @media (max-width: 768px) {
 	.text-chapter {
