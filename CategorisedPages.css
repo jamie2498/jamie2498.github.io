@@ -398,7 +398,7 @@ h3 {
 	text-align: left;
 	/*margin-left: 290px;*/
 	padding-top: 150px;
-	width: calc(100% - 580px);
+	width: 100%;
 	margin: 0 auto 200px auto;
 }
 
@@ -406,20 +406,19 @@ h3 {
 	color: #09183b;
 	font-size: 19px;
 	margin-top: 40px;
-	margin-left: 30px;
+	margin-left: 10px;
 	font-weight: 450;
 }
 .text-title {
 	font-size: 15px;
 	margin-top: 15px;
-	margin-left: 30px;
+	margin-left: 10px;
 	font-weight: 300;
 }
 hr {
     border: none;             
     height: 1px;         
     background-color: #132b64; 
-    margin-left: 20px;
     margin-top: 40px;
 }
 @media (max-width: 768px) {
