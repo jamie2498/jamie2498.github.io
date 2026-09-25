@@ -62,17 +62,24 @@ a:hover {color: #f7a98a;}
 .project-title {
 	font-size: 30px;
 	font-weight: 500;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 .subtitle {
 	font-size: 24px;
 	font-weight: 350;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 .bodytext {
 	font-size: 18px;
 	font-weight: 300;
-	margin-bottom: 50px;
+	margin-bottom: 15px;
+}
+.body-hr {
+	border: none;             
+    height: 1px;         
+    background-color: #132b64; 
+    margin-top: 15px;
+	margin-bottom: 30px;
 }
 @media (max-width: 768px) {
 	.project-title {
