@@ -39,25 +39,6 @@ a {text-decoration: none; color: inherit;}
 a:visited {text-decoration: none;}
 a:hover {color: #f7a98a;}
 
-.project-title {
-	font-size: 40px;
-	font-weight: 500;
-}
-.subtitle {
-	font-size: 24px;
-	font-weight: 350;
-}
-@media (max-width: 768px) {
-	.project-title {
-		font-size: 30px;
-		font-weight: 450;
-	}
-	.subtitle {
-		font-size: 20px;
-		font-weight: 320;
-	}
-}
-
 #wrap {
 	min-height:100%;
 	width:100%;
@@ -86,6 +67,24 @@ a:hover {color: #f7a98a;}
 	}
 }
 
+.project-title {
+	font-size: 40px;
+	font-weight: 500;
+}
+.subtitle {
+	font-size: 24px;
+	font-weight: 350;
+}
+@media (max-width: 768px) {
+	.project-title {
+		font-size: 30px;
+		font-weight: 450;
+	}
+	.subtitle {
+		font-size: 20px;
+		font-weight: 320;
+	}
+}
 
 /*.grid-background {
     width: 70%;
