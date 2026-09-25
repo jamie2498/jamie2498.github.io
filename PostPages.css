@@ -63,16 +63,19 @@ a:hover {color: #f7a98a;}
 	font-size: 30px;
 	font-weight: 500;
 	margin-bottom: 55px;
+	margin-left: 10px;
 }
 .subtitle {
 	font-size: 24px;
 	font-weight: 350;
 	margin-bottom: 30px;
+	margin-left: 10px;
 }
 .bodytext {
 	font-size: 18px;
 	font-weight: 300;
 	margin-bottom: 30px;
+	margin-left: 10px;
 }
 .post hr {
 	border: none;             
