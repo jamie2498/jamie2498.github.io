@@ -53,14 +53,15 @@ a:hover {color: #f7a98a;}
 	.box {
 		display: none;
 	}
+	.mobile-box {
+		width: 100% ;
+		margin-top: 60px;
+		background-color: #09183b;
+		opacity: 0.8;
+		left: 50px;
 }
-.mobile-box {
-	width: 100% ;
-	margin-top: 60px;
-	background-color: #09183b;
-	opacity: 0.8;
-	left: 50px;
 }
+
 
 
 .category {
