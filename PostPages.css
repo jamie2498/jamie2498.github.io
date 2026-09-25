@@ -72,7 +72,7 @@ a:hover {color: #f7a98a;}
 .bodytext {
 	font-size: 18px;
 	font-weight: 300;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 .post hr {
 	border: none;             
@@ -80,6 +80,9 @@ a:hover {color: #f7a98a;}
     background-color: #132b64; 
     margin-top: 15px;
 	margin-bottom: 30px;
+}
+br {
+	
 }
 @media (max-width: 768px) {
 	.project-title {
