@@ -53,12 +53,6 @@ a:hover {color: #f7a98a;}
 	text-align: left;
 	overflow: hidden;
 }
-.post img {
-	max-height: 280px;
-	width: 250px;
-	object-fit: cover;
-	object-position: bottom;
-}
 @media (max-width: 768px) {
 	.post {
 		width: 75%;
@@ -83,6 +77,15 @@ a:hover {color: #f7a98a;}
 	font-weight: 330;
 	margin-bottom: 30px;
 	margin-left: 10px;
+}
+.bodytext img {  			/*About용*/
+	max-height: 280px;
+	width: 250px;
+	object-fit: cover;
+	object-position: bottom;
+	display: flex;           
+  	align-items: center;       
+  	gap: 10px;
 }
 .post hr {
 	border: none;             
