@@ -53,23 +53,23 @@ a:hover {color: #f7a98a;}
 }
 @media (max-width: 768px) {
 	.post {
-		padding-top: 100px;
 		width: 75%;
+		margin: 80px auto 80px auto;
 	}	
 }
 
 .project-title {
 	font-size: 30px;
 	font-weight: 500;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 .subtitle {
 	font-size: 24px;
 	font-weight: 350;
 }
 .bodytext {
-	font-size: 16px;
-	font-weight: 290;
+	font-size: 18px;
+	font-weight: 300;
 }
 @media (max-width: 768px) {
 	.project-title {
