@@ -415,12 +415,12 @@ h3 {
 	font-weight: 300;
 }
 hr {
-  border: none;             
-  height: 1px;         
-  background-color: #132b64; 
-  margin-left: 20px;
-  margin-top: 40px;
-  width: calc(100% - 290px);
+    border: none;             
+    height: 1px;         
+    background-color: #132b64; 
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 67%;
 }
 @media (max-width: 768px) {
 	.text-chapter {
