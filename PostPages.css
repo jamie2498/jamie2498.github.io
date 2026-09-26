@@ -121,7 +121,8 @@ a:hover {color: #f7a98a;}
 	font-weight: 330;
 	margin-bottom: 30px;
 	margin-left: 10px;
-	display: flex;           
+	display: flex;
+    justify-content: center;           
   	align-items: top;
 	gap: 35px;  
 }
