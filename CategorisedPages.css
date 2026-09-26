@@ -267,7 +267,7 @@ img {
 	    gap: 20px 20px;
 		font-size: 14px;
 		padding-top: 50px;
-		margin: 0 auto 80px auto;
+		margin: 10px auto 80px auto;
 	}
 	.Item1, .Item2, .Item3,
 	.Item4, .Item5, .Item6,
@@ -405,7 +405,7 @@ h3 {
 		text-align: left;
 		width: 80%;
 		padding-top: 50px;
-		margin: 0 auto 80px auto;
+		margin: 10px auto 80px auto;
 	}
 }
 .text-chapter {
