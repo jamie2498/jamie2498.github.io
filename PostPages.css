@@ -77,14 +77,14 @@ a:hover {color: #f7a98a;}
 	font-weight: 330;
 	margin-bottom: 30px;
 	margin-left: 10px;
+	display: flex;           
+  	align-items: center;   
 }
-.bodytext img {  			/*About용*/
+.bodytext img {  			
 	max-height: 280px;
 	width: 250px;
 	object-fit: cover;
-	object-position: bottom;
-	display: flex;           
-  	align-items: center;       
+	object-position: bottom;    
   	gap: 10px;
 }
 .post hr {
