@@ -149,7 +149,7 @@ a:hover {color: #f7a98a;}
 
 /* 토글 버튼 디자인 */
 #lang-toggle {
-    position: fixed;
+    position: fixed !important; 
     top: 25px;
     right: 60px;
     z-index: 5;
