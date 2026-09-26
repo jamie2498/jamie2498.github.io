@@ -132,10 +132,10 @@ a:hover {color: #f7a98a;}
 
 
 /* 기본적으로 둘 다 숨김 */
-.lang-kr, .lang-en {
+/*.lang-kr, .lang-en {
     display: none;
-}
-.langKR, .langEN {
+}*/
+#langKR, #langEN {
     display: none;
 }
 
@@ -161,7 +161,7 @@ a:hover {color: #f7a98a;}
     padding: 3px 10px;
     font-size: 13px;
     border: 1px solid #09183b;
-    border-radius: 4px;
+    border-radius: 3px;
     color: #09183b;
 }
 /* 현재 선택된 언어 버튼 강조 */

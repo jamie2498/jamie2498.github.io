@@ -292,6 +292,7 @@ img {
 	width: 100%;
 	margin-left: 25px;
 	position: fixed;
+	top: 0;
 	color: #09183b;
 	font-size: 30px;
 	text-align: left;
