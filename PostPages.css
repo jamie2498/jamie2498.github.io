@@ -135,6 +135,9 @@ a:hover {color: #f7a98a;}
 .lang-kr, .lang-en {
     display: none;
 }
+.langKR, .langEN {
+    display: none;
+}
 
 /* 체크된 언어에 맞는 블록만 보여주기 */
 #langKR:checked ~ #wrap .lang-kr {
