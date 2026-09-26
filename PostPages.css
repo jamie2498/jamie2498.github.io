@@ -58,8 +58,8 @@ a:hover {color: #f7a98a;}
 @media (max-width: 768px) {
 	.post {
 		width: 80%;
-		padding-top: 0;
-		margin: 50px auto 80px auto;
+		padding-top: 150;
+		margin: 10px auto 80px auto;
 	}	
 }
 
