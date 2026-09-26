@@ -315,7 +315,7 @@ img {
 		height: 70px;
 		font-size: 25px;
 		background-color: #f4f2f0;
-		height: 50px;
+		height: 50px; /**/
 	}
 	.header img {
 		max-width: 200px;
@@ -406,7 +406,7 @@ h3 {
 @media (max-width: 768px) {
 	.text-list {
 		text-align: left;
-		width: 85%;
+		width: 80%;
 		padding-top: 80px;
 		margin: 0 auto 80px auto;
 	}
@@ -450,7 +450,7 @@ hr {
 	  	border: none;             
   		height: 1px;         
   		background-color: #132b64; 
-  		width: 85%;
+  		width: 110%;
 		margin: 17px auto 0 auto;
 	}
 }
