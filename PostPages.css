@@ -78,6 +78,11 @@ a:hover {color: #f7a98a;}
 	margin-bottom: 30px;
 	margin-left: 10px;
 }
+.sub-subtitle {
+	font-size: 18px;
+	font-weight: 380;
+	margin-left: 10px;
+}
 .post hr {
 	border: none;             
     height: 1px;         
@@ -96,6 +101,10 @@ a:hover {color: #f7a98a;}
 	.bodytext {
 		font-size: 12px;
 		font-weight: 260;
+	}
+	.sub-subtitle {
+		font-size: 12px;
+		font-weight: 320;
 	}
 }
 
@@ -149,8 +158,8 @@ a:hover {color: #f7a98a;}
 
 /* 토글 버튼 디자인 */
 #lang-toggle {
-    position: fixed !important; 
-    top: 25px;
+    position: fixed; 
+    top: 50px;
     right: 60px;
     z-index: 5;
     display: flex;

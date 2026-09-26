@@ -19,13 +19,21 @@ $(document).ready( function() {
 </head>
 
 <body>
+    <input type="radio" name="lang" id="langKR">
+    <input type="radio" name="lang" id="langEN" checked>
+
+    <div id="lang-toggle">
+        <label for="langEN">EN</label>
+		<label for="langKR">KR</label>
+	</div>
+
 	<div id="wrap">
 		<section>
             <div id="header"></div>
 
             <div id="side"></div>
 			
-			<div class="post">
+			<div class="post lang-en">
                 <div class="project-title">Becoming Clear in The Meaningless</div>
                 <div class="subtitle">Anatta (無我) — Is "I" an Illusion?</div>
                 <div class="bodytext">
@@ -46,36 +54,87 @@ $(document).ready( function() {
                     </div>
                     <hr>
                     <div>
-                        Note: Not feeling meaning in life = it's okay to die? That's too black-and-white. Even if there's no reason to live, does that mean there's a reason to die? Who knows what's after death anyway? If there's no clear reason either way, isn't it better to just keep living for now?
-                    </div>
-                    <br>
-                    <div>
-                        If anything, this feeling of emptiness is what lets me really think about life and find my own drive to keep going.
+                        Note: Concluding that not feeling any meaning in life equals it being okay to die is far too binary. Having no reason to live doesn't amount to having a reason to die. If anything, this sense of emptiness is what allows me to reflect on life and find the drive to keep going.
                     </div>
                 </div>
                 <hr>
                 <div class="subtitle">Reasons Not to Die</div>
                 <div class="bodytext">
-                    <div>
-                        A Life Shaped by Others: A Life That Can't Die
-                    </div>
+                    <div class="sub-subtitle">A Life Shaped by Others: A Life That Can't Die</div>
+                    <br>
                     <div>
                         Death is uncertain. As long as we're alive, we can't experience it directly, and we can't even experience it secondhand. The one thing that is certain is that once you die, you can never come back to this world we live in. You would leave everything behind and face something completely unknown. So I think that no matter how much emptiness someone feels, part of what keeps them going, unable to die, is a kind of dependence on the things that are still here with them right now.
                     </div>
+                    <br>
                     <div>
                         I dislike people, and at the same time, I like people. Family, someone I love, good friends around me, moments like that. I like being around people I really connect with. I like making a short bond with a kind stranger while traveling. It leaves good memories and fills me with a kind of emotional satisfaction. And beyond that, I want people to be happy because of me. There's a kind of happiness that comes from giving. So for a while, I thought that caring for others, making other people happy, was the meaning of my life.
                     </div>
+                    <br>
                     <div>
                         But eventually, we part ways, and in the end, everyone ends up alone. It will be sad if the reason for my existence is other people instead of myself. I think what I need first is to make sure my own inner world is solid, with myself at the center.
                     </div>
-                    <div>
-                        A Life of My Own Choosing: Living in Order to Live
-                    </div>
+                    <br>
+                    <div class="sub-subtitle">A Life of My Own Choosing: Living in Order to Live</div>
+                    <br>
                     <div>
                         Like I've said throughout this, I don't want to pin down some fixed meaning or essence of life. For example, if the meaning of my life was playing an instrument, and I lost both hands in an accident, would I give up on life? At first, maybe I'd want to. But somehow I'd keep living, and I'd try to find some other meaning. And that meaning, too, could disappear someday — maybe even the very next day. I came to think that if you decide life has to have meaning, life turns into an endless chase for that meaning, and you end up depending on it. I didn't want meaning to be the thing controlling my life.
                     </div>
+                    <br>
                     <div>
                         So I think it's okay to just leave life without a fixed meaning. If anything, this uncertainty is what frees me from the obsession with needing meaning. In this world that feels so uncertain, all I want to do is build a solid inner world for myself, so that I don't lose "myself," no matter the circumstances. Of course, I do respect what meaning other people find in their own lives.
+                    </div>
+                </div> 
+            </div>
+
+            <div class="post lang-kr">
+                <div class="project-title">확실한 것이 없는 무의미 속에서 나는 명확해진다.</div>
+                <div class="subtitle">무아(無我, anatta), ‘나’는 환상인가</div>
+                <div class="bodytext">
+                    <div>
+                        내가 알고 있는 내가 진짜 나라고 확신할 수 있나? 내가 생각하는 내가 가짜라거나, 환상이라는 것은 아니다. ’나‘는 분명히 존재한다. 하지만 이를 하나로 정의하는 것은 환상이라고 생각한다. 
+                    </div>
+                    <br>
+                    <div>
+                        나는 파편화된 나의 집합체이다. 내 세계를 구축하기 위해 남들에게 맞추었던 모습을 부수고, 그 파편들을 다시 이어붙인다. 하지만 이어붙인 파편들이 완벽한 하나의 모습이 되진 않을 것이다. 나를 ‘이런 사람’으로서 단정 짓는 것이 아니기 때문이다. 그저 나에 대해 깊이 알아가고 한 사람으로서의 방향성이 명확해지는 과정이다. 
+                    </div>
+                    <br>
+                    <div>
+                        스스로를 부수고 이어붙이는 기준은 타인이 아닌 내가 되어야 한다. 타인의 말, 반응, 행동에 맞춰 나를 이어붙이면 허무에 빠지게 된다. 하지만 기준이 된 나는 이 세계와 소통할 수 있는 범위에 있나? 내 세계에만 빠져 남을 멋대로 정의하지 않아야 한다. 나를 잃지 않는 동시에 서로 다른 개개인의 세계도 존중하려는 노력이 필요하다. 
+                    </div>
+                    <br>
+                    <div>
+                        다양한 각자의 ‘나’들이 존재하고 어느 하나의 답으로 정의될 수 없기에, 이 세계는 “무의미”인 것이다. 이 무의미 속에서 오히려 ‘의미’에 대한 강박에서 벗어나 나로서 존재할 수 있다는 자유를 느끼게 된다. 이전의 무의미에 대한 해석이 ‘쓸모없음’이었다면, 이제는 ‘불명확함 속의 자유’로서 긍정적으로 느껴진다. 
+                    </div>
+                    <hr>
+                    <div>
+                        Note: 삶의 의미를 못 느낀다 = 죽어도 된다라는 결론은 너무 이분법적이다. 살 이유가 없는 것이 죽을 이유가 되진 않는다. 오히려 이런 허무감이 삶에 대한 고찰을 하고 원동력을 찾을 수 있게 해준다. 
+                    </div>
+                </div>
+                <hr>
+                <div class="subtitle">죽지 않을 이유</div>
+                <div class="bodytext">
+                    <div class="sub-subtitle">타의적 삶: 죽지 못하는 삶</div>
+                    <br>
+                    <div>
+                        죽음은 불확실하다. 살아있다는 전제 하에 경험해볼 수도 없고 간접경험조차 하지 못한다. 딱 하나 확실한게 있다면 죽음 뒤에 다시 우리가 사는 이 세계로 돌아올 수는 없다는 것이다. 현재의 모든 것과 헤어지고 무엇이 있을지 모르는 상황을 맞닥뜨리게 되는 것이다. 그렇기에 아무리 허무함을 느끼더라도, 지금 남아있는 것들에게 일종의 의존을 하며 죽지 못해 살아가기도 하는 것 같다. 
+                    </div>
+                    <br>
+                    <div>
+                        나는 사람을 싫어하는 동시에 사람을 좋아한다. 가족, 연인, 좋은 사람들과 함께하는 자리 등등. 마음맞는 사람과 함께 있는게 좋다. 여행지에서 친절한 낯선 사람과 짧은 유대를 쌓는게 좋다. 좋은 기억으로 남고, 감정적인 만족감이 채워진다. 더 나아가 사람들이 나로 인해 행복하면 좋겠다. 주는 것에서 오는 행복이 있다. 그래서 한때는 남을 위하는 이타심, 타인을 행복하게 해주는 것이 내 삶의 의미라고 생각했다. 
+                    </div>
+                    <br>
+                    <div>
+                        하지만 때가 되면 헤어지게되고 결국은 혼자가 된다. 내가 아닌 타인이 나의 존재 이유가 되는 것은 슬픈 것 같다. 나 자신이 중심에 있는, 나의 내면세계를 확실히 하는 것이 먼저 필요할 것 같다.
+                    </div>
+                    <br>
+                    <div class="sub-subtitle">자의적 삶: 살기 위한 삶</div>
+                    <br>
+                    <div>
+                        앞에서 계속 말했듯이, 삶의 의미나 본질을 정의하고 싶은 것은 아니다. 예를 들어, 삶의 의미가 악기 연주인데 사고로 두 손을 잃는다면 나는 삶을 포기할까? 처음에는 그러고 싶겠지만 어찌저찌 살아가며 다른 의미를 찾으려 할 것이다. 그것 또한 언젠가, 어쩌면 바로 다음날 사라질 수도 있다. 의미가 있다고 규정하게 되면 삶은 의미를 찾는 것의 굴레가 되어 버리고 나는 그 의미라는 것에 의존하게 된다고 생각했다. 의미가 내 삶을 좌지우지하게 두고 싶지 않았다.
+                    </div>
+                    <br>
+                    <div>
+                        그래서 삶은 의미가 없는 채로 두는 것도 나쁘지 않다고 생각한다. 오히려 이런 불명확함이 의미를 향한 강박에서 벗어나게 해준다. 그저 불확실하게 느껴지는 이 세계 속에서 나의 내면세계를 단단하게 만들어 어떤 환경에서든 “나”를 잃지 않고자 할 뿐이다. 물론, 타인이 가지는 삶의 의미에 대해서는 존중한다. 
                     </div>
                 </div> 
             </div>
