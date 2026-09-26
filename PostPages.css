@@ -124,7 +124,8 @@ a:hover {color: #f7a98a;}
 	display: flex;
     justify-content: center;           
   	align-items: top;
-	gap: 35px;  
+	gap: 35px;
+	overflow: hidden; /*안되면 모바일에만*/  
 }
 .picture-bodytext img {
 	max-height: 280px;
@@ -137,16 +138,11 @@ a:hover {color: #f7a98a;}
 		font-size: 12px;
 		font-weight: 320;
 		margin-bottom: 30px;
-		overflow: hidden;
-		/*display: flex;           
-	  	align-items: top;
-		gap: 15px;*/  
+		gap: 9px;
 	}
 	.picture-bodytext img {
 		max-height: 150px;
-		width: 75%px;
-		object-fit: cover;
-		object-position: bottom;
+		width: 100px;
 	}
 }
 
