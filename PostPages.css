@@ -78,14 +78,14 @@ a:hover {color: #f7a98a;}
 	margin-bottom: 30px;
 	margin-left: 10px;
 	display: flex;           
-  	align-items: center;   
+  	align-items: center;
+	gap: 10px;   
 }
 .bodytext img {  			
 	max-height: 280px;
 	width: 250px;
 	object-fit: cover;
-	object-position: bottom;    
-  	gap: 10px;
+	object-position: bottom;
 }
 .post hr {
 	border: none;             
