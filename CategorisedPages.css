@@ -314,14 +314,10 @@ img {
 		height: 70px;
 		font-size: 25px;
 		background-color: #f4f2f0;
-		object-fit: cover;
-		object-position: center;
 	}
 	.header img {
 		max-width: 200px;
 		height: 83px;
-		object-fit: cover;
-		object-position: center;
 	}
 }
 
@@ -399,7 +395,7 @@ h3 {
 }
 
 /* !!!grid, post의 width, margin, padding-top 동기화!!! */
-.text-list {
+.text-list {		/*Text용*/
 	text-align: left;
 	width: calc(100% - 580px);
 	padding-top: 150px;
@@ -408,7 +404,7 @@ h3 {
 @media (max-width: 768px) {
 	.text-list {
 		text-align: left;
-		width: 75%;
+		width: 85%;
 		padding-top: 80px;
 		margin: 0 auto 80px auto;
 	}

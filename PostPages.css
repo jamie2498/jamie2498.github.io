@@ -108,7 +108,7 @@ a:hover {color: #f7a98a;}
 	}
 }
 
-.picture-bodytext {
+.picture-bodytext {		/*About용*/
 	font-size: 18px;
 	font-weight: 330;
 	margin-bottom: 30px;
@@ -122,6 +122,23 @@ a:hover {color: #f7a98a;}
 	width: 250px;
 	object-fit: cover;
 	object-position: bottom;
+}
+@media (max-width: 768px) {
+	.picture-bodytext {
+		font-size: 12px;
+		font-weight: 320;
+		margin-bottom: 30px;
+		overflow: hidden;
+		/*display: flex;           
+	  	align-items: top;
+		gap: 15px;*/  
+	}
+	.picture-bodytext img {
+		max-height: 150px;
+		width: 75%px;
+		object-fit: cover;
+		object-position: bottom;
+	}
 }
 
 .one-img img {
