@@ -145,6 +145,12 @@ a:hover {color: #f7a98a;}
 .one-img img {
 	height: 100%;
 	width: 90%;
+	object-fit: cover;
+}
+.two-img img {
+	height: 100%;
+	width: 45%;
+	object-fit: cover;
 }
 .three-img img {
 	height:100%;
@@ -153,7 +159,7 @@ a:hover {color: #f7a98a;}
 }
 .four-img img {
 	height: 100%;
-	width:24%;
+	width:22%;
 	object-fit: cover;
 }
 

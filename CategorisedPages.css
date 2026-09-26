@@ -444,8 +444,7 @@ hr {
 	hr {
 	  	border: none;             
   		height: 1px;         
-  		background-color: #132b64; 
-  		width: 110%;
+  		background-color: #132b64;
 		margin: 17px auto 0 auto;
 	}
 }
