@@ -100,7 +100,7 @@ a:hover {color: #f7a98a;}
 		margin-bottom: 50px;
 	}
 	.subtitle {
-		font-size: 20px;
+		font-size: 16px;
 		font-weight: 320;
 		margin-left: 0;
 	}
@@ -169,7 +169,7 @@ a:hover {color: #f7a98a;}
 @media (max-width: 768px) {
 	.one-img img, .two-img img, .three-img img, .four-img img {
 		height: 100%;
-		width: 80%;
+		width: 100%;
 		object-fit: cover;
 	}
 	/*.two-img img {
@@ -225,7 +225,8 @@ a:hover {color: #f7a98a;}
 }
 @media (max-width: 768px) {
 	#lang-toggle {
-    	top: 10px;
+    	top: 25px;
+		right: 65px;
     	gap: 3px;
 	}
 	#lang-toggle label {
