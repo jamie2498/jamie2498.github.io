@@ -19,13 +19,23 @@ $(document).ready( function() {
 </head>
 
 <body>
+    <!-- 언어 토글용 라디오 버튼 (화면엔 숨김, 상태만 기억) -->
+	<input type="radio" name="lang" id="langKR" checked>
+	<input type="radio" name="lang" id="langEN">
+
+    <!-- 실제 눈에 보이는 버튼 -->
+    <div id="lang-toggle">
+		<label for="langKR">KR</label>
+		<label for="langEN">EN</label>
+	</div>
+
 	<div id="wrap">
 		<section>
             <div id="header"></div>
 
             <div id="side"></div>
 			
-			<div class="post">
+			<div class="post lang-en">
                 <div class="project-title">Intro: The Meaninglessness of Life</div>
                 <div class="bodytext">
                     <div>
@@ -34,6 +44,19 @@ $(document).ready( function() {
                     <br> 
                     <div>
                     This kept happening over and over, and it made me feel how empty life could be. Everything started to feel pointless, and I began to wonder if there was really a reason to keep trying so hard to live. I started looking for the meaning of life to overcome this.
+                    </div>
+                </div>
+            </div>
+
+            <div class="post lang-kr">
+                <div class="project-title">Intro: 삶의 무의미</div>
+                <div class="bodytext">
+                    <div>
+                    나는 예민한 사람이다. 특히 타인의 표정과 말투를 예민하게 받아들인다. 상처로부터 나를 보호하기 위해 스스로를 검열하고 깎아내어 남들의 기준과 성향, 가치관에 맞추려 했다. 그 속에서 내 자아는 모호해지고 내가 없는 내면세계는 항상 공허하고 혼란스러웠다. 남에게도, 나에게도 이방인 같았다. 
+                    </div>
+                    <br> 
+                    <div>
+                    이런 상황의 반복은 삶의 허무함을 느끼게 했다. 모든게 부질없게 느껴지기 시작했고, 굳이 애써 살아가야할 이유가 있는지 고민하기 시작했다. 삶의 의미를 찾으려했다. 
                     </div>
                 </div>
             </div>

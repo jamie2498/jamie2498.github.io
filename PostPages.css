@@ -211,4 +211,39 @@ a:hover {color: #f7a98a;}
 	object-fit: cover;
 }
 
+/* 기본적으로 둘 다 숨김 */
+.lang-kr, .lang-en {
+    display: none;
+}
 
+/* 체크된 언어에 맞는 블록만 보여주기 */
+#langKR:checked ~ #wrap .lang-kr {
+    display: block;
+}
+#langEN:checked ~ #wrap .lang-en {
+    display: block;
+}
+
+/* 토글 버튼 디자인 */
+#lang-toggle {
+    position: fixed;
+    top: 25px;
+    right: 60px;
+    z-index: 5;
+    display: flex;
+    gap: 6px;
+}
+#lang-toggle label {
+    cursor: pointer;
+    padding: 3px 10px;
+    font-size: 13px;
+    border: 1px solid #09183b;
+    border-radius: 4px;
+    color: #09183b;
+}
+/* 현재 선택된 언어 버튼 강조 */
+#langKR:checked ~ #lang-toggle label[for="langKR"],
+#langEN:checked ~ #lang-toggle label[for="langEN"] {
+    background-color: #09183b;
+    color: white;
+}
