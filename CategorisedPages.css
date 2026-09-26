@@ -55,7 +55,7 @@ a:hover {color: #f7a98a;}
 	}
 	.mobile-box {
 		width: 100% ;
-		margin-top: 60px;
+		padding-top: 60px;
 		background-color: #09183b;
 		opacity: 0.8;
 		margin-left: 20px;
