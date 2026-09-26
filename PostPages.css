@@ -132,9 +132,9 @@ a:hover {color: #f7a98a;}
 
 
 /* 기본적으로 둘 다 숨김 */
-/*.lang-kr, .lang-en {
+.lang-kr, .lang-en {
     display: none;
-}*/
+}
 #langKR, #langEN {
     display: none;
 }
