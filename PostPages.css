@@ -58,8 +58,8 @@ a:hover {color: #f7a98a;}
 @media (max-width: 768px) {
 	.post {
 		width: 80%;
-		padding-top: 80px;
-		margin: 80px auto 80px auto;
+		padding-top: 0;
+		margin: 50px auto 80px auto;
 	}	
 }
 
@@ -125,7 +125,7 @@ a:hover {color: #f7a98a;}
     justify-content: center;           
   	align-items: top;
 	gap: 35px;
-	overflow: hidden; /*안되면 모바일에만*/  
+	overflow: hidden;  
 }
 .picture-bodytext img {
 	max-height: 280px;
@@ -138,11 +138,12 @@ a:hover {color: #f7a98a;}
 		font-size: 12px;
 		font-weight: 320;
 		margin-bottom: 30px;
-		gap: 9px;
+		margin-left: 0;
+		gap: 10px;
 	}
 	.picture-bodytext img {
-		max-height: 150px;
-		width: 100px;
+		height: 150px;
+		width: 100%;
 	}
 }
 
