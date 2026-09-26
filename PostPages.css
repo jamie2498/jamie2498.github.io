@@ -55,7 +55,7 @@ a:hover {color: #f7a98a;}
 }
 @media (max-width: 768px) {
 	.post {
-		width: 75%;
+		width: 80%;
 		padding-top: 80px;
 		margin: 80px auto 80px auto;
 	}	
@@ -92,20 +92,25 @@ a:hover {color: #f7a98a;}
 }
 @media (max-width: 768px) {
 	.project-title {
-		font-size: 30px;
+		font-size: 20px;
 		font-weight: 450;
+		margin-left: 0;
+		margin-bottom: 50px;
 	}
 	.subtitle {
 		font-size: 20px;
 		font-weight: 320;
+		margin-left: 0;
 	}
 	.bodytext {
 		font-size: 12px;
 		font-weight: 260;
+		margin-left: 0;
 	}
 	.sub-subtitle {
 		font-size: 12px;
 		font-weight: 320;
+		margin-left: 0;
 	}
 }
 
@@ -162,6 +167,28 @@ a:hover {color: #f7a98a;}
 	width:22%;
 	object-fit: cover;
 }
+@media (max-width: 768px) {
+	.one-img img, .two-img img, .three-img img, .four-img img {
+		height: 100%;
+		width: 80%;
+		object-fit: cover;
+	}
+	/*.two-img img {
+		height: 100%;
+		width: 45%;
+		object-fit: cover;
+	}
+	.three-img img {
+		height:100%;
+		width:100%;
+		object-fit: cover;
+	}
+	.four-img img {
+		height: 100%;
+		width:22%;
+		object-fit: cover;
+	}*/
+}
 
 
 /* 기본적으로 둘 다 숨김 */
@@ -197,6 +224,17 @@ a:hover {color: #f7a98a;}
     border-radius: 3px;
     color: #09183b;
 }
+@media (max-width: 768px) {
+	#lang-toggle {
+    	top: 10px;
+    	gap: 3px;
+	}
+	#lang-toggle label {
+	    padding: 2px 8px;
+	    font-size: 9px;
+	}
+}
+
 /* 현재 선택된 언어 버튼 강조 */
 #langKR:checked ~ #lang-toggle label[for="langKR"],
 #langEN:checked ~ #lang-toggle label[for="langEN"] {
