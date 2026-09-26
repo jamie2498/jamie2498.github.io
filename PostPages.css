@@ -78,7 +78,7 @@ a:hover {color: #f7a98a;}
 	margin-bottom: 30px;
 	margin-left: 10px;
 	display: flex;           
-  	align-items: center;
+  	align-items: top;
 	gap: 10px;   
 }
 .bodytext img {  			
