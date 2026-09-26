@@ -290,6 +290,7 @@ img {
 
 .header {
 	width: 100%;
+	height: 130px; /**/
 	margin-left: 25px;
 	position: fixed;
 	top: 0;
@@ -303,8 +304,8 @@ img {
 .header img {
 	display: block;
 	width: auto;
-	height: 100px; /*170*/
-	max-width: 180px; /*300*/
+	height: 170px;
+	max-width: 300px;
 	object-fit: cover;
     object-position: center;
 }
@@ -314,6 +315,7 @@ img {
 		height: 70px;
 		font-size: 25px;
 		background-color: #f4f2f0;
+		height: 50px;
 	}
 	.header img {
 		max-width: 200px;
