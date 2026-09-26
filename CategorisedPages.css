@@ -266,8 +266,8 @@ img {
 	    grid-auto-rows: minmax(66px, auto);
 	    gap: 20px 20px;
 		font-size: 14px;
-		padding-top: 150;
-		margin: 10px auto 80px auto;
+		padding-top: 50px;
+		margin: 0 auto 80px auto;
 	}
 	.Item1, .Item2, .Item3,
 	.Item4, .Item5, .Item6,
@@ -404,8 +404,8 @@ h3 {
 	.text-list {
 		text-align: left;
 		width: 80%;
-		padding-top: 150px;
-		margin: 10px auto 80px auto;
+		padding-top: 50px;
+		margin: 0 auto 80px auto;
 	}
 }
 .text-chapter {
