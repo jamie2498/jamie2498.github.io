@@ -79,7 +79,7 @@ a:hover {color: #f7a98a;}
 	margin-left: 10px;
 	display: flex;           
   	align-items: top;
-	gap: 10px;   
+	gap: 25px;   
 }
 .bodytext img {  			
 	max-height: 280px;
