@@ -58,7 +58,7 @@ a:hover {color: #f7a98a;}
 @media (max-width: 768px) {
 	.post {
 		width: 80%;
-		padding-top: 100px;
+		padding-top: 120px;
 		margin: 0 auto 80px auto;
 	}	
 }
@@ -105,12 +105,12 @@ a:hover {color: #f7a98a;}
 		margin-left: 0;
 	}
 	.bodytext {
-		font-size: 12px;
+		font-size: 13px;
 		font-weight: 260;
 		margin-left: 0;
 	}
 	.sub-subtitle {
-		font-size: 12px;
+		font-size: 13px;
 		font-weight: 320;
 		margin-left: 0;
 	}

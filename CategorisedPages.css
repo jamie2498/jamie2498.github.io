@@ -405,7 +405,7 @@ h3 {
 		text-align: left;
 		width: 80%;
 		padding-top: 100px;
-		margin: 0 auto 80px auto; /*게속 header에 가려지면 margin 문제인것.*/
+		margin: 0 auto 80px auto;
 	}
 }
 .text-chapter {
