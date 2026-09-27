@@ -55,7 +55,6 @@ a:hover {color: #f7a98a;}
 	text-align: left;
 	overflow: hidden;
 	flex-direction: column; /*아래로 정렬*/
-	line-height: 1;
 }
 @media (max-width: 768px) {
 	.post {
@@ -87,6 +86,7 @@ a:hover {color: #f7a98a;}
 	font-weight: 330;
 	margin-bottom: 30px;
 	margin-left: 10px;
+	line-height: 1;
 }
 .post hr {
 	border: none;             
