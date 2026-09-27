@@ -149,22 +149,22 @@ a:hover {color: #f7a98a;}
 
 .one-img img {
 	height: 100%;
-	width: 90%;
+	width: 100%;
 	object-fit: cover;
 }
 .two-img img {
 	height: 100%;
-	width: 45%;
+	width: 50%;
 	object-fit: cover;
 }
 .three-img img {
 	height:100%;
-	width:30%;
+	width:33%;
 	object-fit: cover;
 }
 .four-img img {
 	height: 100%;
-	width:22%;
+	width:25%;
 	object-fit: cover;
 }
 @media (max-width: 768px) {
