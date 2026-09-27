@@ -82,7 +82,6 @@ a:hover {color: #f7a98a;}
 	margin-left: 10px;
 }
 .bodytext {
-	flex-direction: column;
 	font-size: 18px;
 	font-weight: 330;
 	margin-bottom: 30px;
