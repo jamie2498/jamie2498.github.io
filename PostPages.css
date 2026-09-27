@@ -130,8 +130,8 @@ a:hover {color: #f7a98a;}
 	overflow: hidden;  
 }
 .picture-bodytext img {
-	max-height: 450px;
-	width: 450px;
+	max-height: 400px;
+	width: 400px;
 	object-fit: cover;
 	object-position: bottom;
 }
