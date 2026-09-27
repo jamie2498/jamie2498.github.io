@@ -54,7 +54,7 @@ a:hover {color: #f7a98a;}
 	margin: 0 auto 200px auto;
 	text-align: left;
 	overflow: hidden;
-	flex-direction: column; /**/
+	flex-direction: column; /*아래로 정렬*/
 }
 @media (max-width: 768px) {
 	.post {
@@ -144,7 +144,7 @@ a:hover {color: #f7a98a;}
 		gap: 10px;
 	}
 	.picture-bodytext img {
-		height: 150px;
+		height: 200px;
 		width: 100%;
 	}
 }
