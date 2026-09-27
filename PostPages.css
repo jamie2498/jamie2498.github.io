@@ -76,15 +76,15 @@ a:hover {color: #f7a98a;}
 	margin-bottom: 30px;
 	margin-left: 10px;
 }
+.sub-subtitle {
+	font-size: 18px;
+	font-weight: 400;
+	margin-left: 10px;
+}
 .bodytext {
 	font-size: 18px;
 	font-weight: 330;
 	margin-bottom: 30px;
-	margin-left: 10px;
-}
-.sub-subtitle {
-	font-size: 18px;
-	font-weight: 380;
 	margin-left: 10px;
 }
 .post hr {
