@@ -155,7 +155,7 @@ a:hover {color: #f7a98a;}
 	width: 100%;
 	object-fit: cover;
 }
-.two-img img {
+.two-img img {			/*한 줄에 이미지 두 개 이상일 때, 너비의 1%는 남겨둬야 함*/
 	height: 100%;
 	width: 49%;
 	object-fit: cover;
