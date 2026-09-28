@@ -370,10 +370,10 @@ footer img {
 	font-size: 55px;
 	font-family: 'Jamie Oh! bold';
 	float: left;
+	height: 12px;
 	bottom: 11px;
 	margin-right: 1px;
 	display: flex;
-	flex-direction: column;
 	justify-content: flex-end;
 }
 @media (max-width:768px) {
