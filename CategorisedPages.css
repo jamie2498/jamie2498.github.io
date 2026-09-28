@@ -359,6 +359,16 @@ footer img {
 	}
 }
 
+.footer {
+	display: flex;
+	justify-content: center;
+	bottom: 11px;
+}
+.footer img {
+	font-size: 55px;
+	font-family: 'Jamie Oh! bold';
+}
+
 .right-footer {
 	width: 49%;
 	bottom: 11px;
