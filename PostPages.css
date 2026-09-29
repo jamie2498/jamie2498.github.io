@@ -205,25 +205,25 @@ a:hover {color: #f7a98a;}
 	align-items: center; 
     gap: 6px;
 
+	/*
 	color: #09183b;
 	opacity: 0.3;
 	transition: opacity 0.2s ease;
+	*/
 }
 #lang-toggle label {
     cursor: pointer;
     font-size: 15px;
-    /*
-	color: rgba(9, 24, 59, 0.2);
-	transition: opacity 0.2s ease;
-	*/
 	background: none;
     border: none;
+
+	color: rgba(9, 24, 59, 0.2);
+	transition: opacity 0.2s ease;
 }
 .lang-divider {
     width: 1.2px;
     height: 12px;
     background-color: #09183b;
-    opacity: 0.3;
 }
 #langEN:checked ~ #lang-toggle label[for="langEN"],
 #langKR:checked ~ #lang-toggle label[for="langKR"] {
