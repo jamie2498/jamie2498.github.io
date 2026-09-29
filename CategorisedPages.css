@@ -345,6 +345,7 @@ footer {
 	text-align: left;
 	font-size: 12px;
 	opacity: 0.8;
+	box-sizing: border-box;
 }
 footer img {
 	display: block;
@@ -364,7 +365,7 @@ footer img {
 	justify-content: center;
 	align-items: flex-end;
 	overflow: hidden;
-	box-sizing: border-box; 
+	 
 }
 .footer img {
 	font-size: 55px;
