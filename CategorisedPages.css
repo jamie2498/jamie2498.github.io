@@ -301,17 +301,17 @@ img {
 	color: #09183b;
 	font-size: 30px;
 	text-align: left;
-	/*overflow: hidden;*/
+	overflow: hidden;
 }
 .header img {
 	display: block;
 	width: auto;
 	height: 170px;
 	max-width: 300px;
-	/*
+	
 	object-fit: cover;
 	object-position: center;
-	*/
+	
 }
 @media (max-width: 768px) {
 	.header {
