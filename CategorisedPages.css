@@ -367,7 +367,7 @@ footer img {
 	height: 30px;
 	max-width: 50px;
 	object-fit: cover;
-	object-position: bottom;
+	object-position: center;
 }
 .footer-text {
 	margin-left: 2px;
