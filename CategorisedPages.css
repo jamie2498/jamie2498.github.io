@@ -302,7 +302,6 @@ img {
 	color: #09183b;
 	font-size: 30px;
 	text-align: left;
-
 	overflow: hidden;
 }
 .header img {
@@ -325,7 +324,7 @@ img {
 		margin-left: 22px;
 	}
 	.header img {
-		max-width: 200px;
+		width: 130px;
 		height: 83px;
 	}
 }
@@ -395,7 +394,7 @@ footer img {
 	}
 	.footer-text {
 	margin-left: 2px;
-	margin-bottom: 7px;
+	margin-bottom: 6px;
 	}
 }
 
