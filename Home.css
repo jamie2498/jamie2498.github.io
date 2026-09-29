@@ -219,6 +219,7 @@ footer img {
 .footer img {
 	font-size: 55px;
 	font-family: 'Jamie Oh! bold';
+	bottom: 4px;
 }
 .footer-text {
 	margin-left: 2px;
@@ -231,6 +232,7 @@ footer img {
 	.footer img {
 		font-size: 45px;
 		font-family: 'Jamie Oh! bold';
+		bottom: 5px;
 	}
 	.footer-text {
 	margin-left: 1px;
