@@ -214,7 +214,7 @@ a:hover {color: #f7a98a;}
 }
 .lang-divider {
     width: 1.2px;
-    height: 12px;
+    height: 14px;
     background-color: #09183b;
 }
 #langEN:checked ~ #lang-toggle label[for="langEN"],
