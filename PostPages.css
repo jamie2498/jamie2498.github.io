@@ -204,21 +204,13 @@ a:hover {color: #f7a98a;}
     display: flex;
 	align-items: center; 
     gap: 6px;
-
-	/*
-	color: #09183b;
-	opacity: 0.3;
-	transition: opacity 0.2s ease;
-	*/
 }
 #lang-toggle label {
     cursor: pointer;
     font-size: 15px;
-	background: none;
-    border: none;
-
-	color: rgba(9, 24, 59, 0.2);
+	color: #09183b;
 	transition: opacity 0.2s ease;
+	opacity: 0.3;
 }
 .lang-divider {
     width: 1.2px;
@@ -244,9 +236,10 @@ a:hover {color: #f7a98a;}
 	}
 }
 
-/* 현재 선택된 언어 버튼 강조 */
+/*  
 #langKR:checked ~ #lang-toggle label[for="langKR"],
 #langEN:checked ~ #lang-toggle label[for="langEN"] {
     background-color: #09183b;
     color: white;
 }
+*/
