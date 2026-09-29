@@ -218,6 +218,10 @@ a:hover {color: #f7a98a;}
     background-color: #09183b;
     opacity: 0.3;
 }
+#langEN:checked ~ #lang-toggle label[for="langEN"],
+#langKR:checked ~ #lang-toggle label[for="langKR"] {
+    opacity: 1;
+}
 @media (max-width: 768px) {
 	#lang-toggle {
     	top: 26px;
