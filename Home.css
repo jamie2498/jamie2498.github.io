@@ -53,12 +53,11 @@ a:hover {color: #f7a98a;}
     display: flex;
     justify-content: center;
 	width: calc(100% - 50px);
-	margin: 0 auto 200px auto;
+	margin: 0 auto;
 }
 @media (max-width: 768px) {
 	.box {
 	    width: 100%;
-	    margin-bottom: 80px;
     }
 }
 
@@ -206,7 +205,7 @@ footer img {
 
 .footer {
 	width: 100%;
-	bottom: 25px; /*15*/
+	bottom: 40px; /*15*/
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
@@ -216,18 +215,18 @@ footer img {
 .footer img {
 	font-size: 55px;
 	font-family: 'Jamie Oh! bold';
-	height: 47px;
-	max-width: 60px;
+	height: 33px;
+	max-width: 50px;
 	object-fit: cover;
 	object-position: center;
 }
 .footer-text {
 	margin-left: 3px;
-	margin-bottom: 12px;
+	margin-bottom: 14px;
 }
 @media (max-width:768px) {
 	.footer {
-		bottom: 13px;
+		bottom: 14px;
 	}
 	.footer img {
 		font-size: 45px;
@@ -236,8 +235,8 @@ footer img {
 		max-width: 53px;
 	}
 	.footer-text {
-	margin-left: 2px;
-	margin-bottom: 8px;
+		margin-left: 2px;
+		margin-bottom: 10px;
 	}
 }
 
