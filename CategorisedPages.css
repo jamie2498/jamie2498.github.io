@@ -383,7 +383,7 @@ footer img {
 }
 @media (max-width:768px) {
 	.footer {
-		bottom: 7px;
+		bottom: 8px;
 	}
 	.footer img {
 		font-size: 45px;
@@ -393,7 +393,7 @@ footer img {
 	}
 	.footer-text {
 	margin-left: 2px;
-	margin-bottom: 3px;
+	margin-bottom: 4px;
 	}
 }
 
