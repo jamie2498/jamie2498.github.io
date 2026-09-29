@@ -364,11 +364,20 @@ footer img {
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
-	bottom: 11px;
+	margin-bottom: 30px;
 }
 .footer img {
 	font-size: 55px;
 	font-family: 'Jamie Oh! bold';
+}
+@media (max-width:768px) {
+	.footer {
+		margin-bottom: 15px;
+	}
+	.footer img {
+		font-size: 45px;
+		font-family: 'Jamie Oh! bold';
+	}
 }
 
 .right-footer {
