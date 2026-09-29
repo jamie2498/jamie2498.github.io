@@ -336,14 +336,14 @@ img {
 /* !!!footer, h3는 내용 바뀌면 Home.css에 똑같이 복붙하기!!! */
 footer {
 	width: 100%;
-	height: 120px;
+	height: 100px;
 	bottom: 0px;
-	padding-top: 28px;
+	padding-top: 30px;
 	padding-bottom: 4px;
 	position: absolute;
 	color: #09183b;
 	text-align: left;
-	font-size: 12px;
+	font-size: 11px;
 	opacity: 0.8;
 	box-sizing: border-box;
 }
@@ -353,7 +353,7 @@ footer img {
 @media (max-width:768px) {
 	footer {
 		height: 70px;
-		font-size: 8px;
+		font-size: 7px;
 		padding-top: 5px;
 	}
 }
@@ -365,7 +365,6 @@ footer img {
 	justify-content: center;
 	align-items: flex-end;
 	overflow: hidden;
-	 
 }
 .footer img {
 	font-size: 55px;
