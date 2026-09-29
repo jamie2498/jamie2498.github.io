@@ -60,7 +60,7 @@ a:hover {color: #f7a98a;}
 	.post {
 		width: 80%;
 		padding-top: 120px;		/* <-모바일 버전은 post가 살짝 높게*/
-		margin: 0 auto 50px auto;
+		margin: 0 auto 30px auto;
 	}	
 }
 
@@ -207,7 +207,7 @@ a:hover {color: #f7a98a;}
 }
 #lang-toggle label {
     cursor: pointer;
-    font-size: 15px;
+    font-size: 17px;
 	color: #09183b;
 	transition: opacity 0.2s ease;
 	opacity: 0.3;

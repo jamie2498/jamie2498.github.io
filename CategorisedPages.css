@@ -258,7 +258,7 @@ img {
 .Item8 {grid-column: 2/3; grid-row: 3/4; order:5;}
 .Item9 {grid-column: 3/4; grid-row: 3/4; order:4;}
 
-@media screen and (max-width:768px) {
+@media (max-width:768px) {
 	.grid{
 		width: 75%;
 		flex-direction: column;
@@ -267,7 +267,7 @@ img {
 	    gap: 20px 20px;
 		font-size: 14px;
 		padding-top: 100px;
-		margin: 0 auto 50px auto;
+		margin: 0 auto 30px auto;
 		font-size: 12px;
 	}
 	.Item1, .Item2, .Item3,
@@ -285,7 +285,8 @@ img {
 	.Item7 {grid-column: 1/2; grid-row: 7/8; order:6;}
 	.Item8 {grid-column: 1/2; grid-row: 8/9; order:5;}
 	.Item9 {grid-column: 1/2; grid-row: 9/10; order:4;}
-	}
+}
+
 
 #wrap {
 	min-height:100vh;
@@ -363,7 +364,7 @@ footer img {
 
 .footer {
 	width: 100%;
-	bottom: 12px;
+	bottom: 14px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
@@ -384,7 +385,7 @@ footer img {
 }
 @media (max-width:768px) {
 	.footer {
-		bottom: 8px;
+		bottom: 11px;
 	}
 	.footer img {
 		font-size: 45px;
@@ -394,7 +395,7 @@ footer img {
 	}
 	.footer-text {
 	margin-left: 2px;
-	margin-bottom: 4px;
+	margin-bottom: 7px;
 	}
 }
 
@@ -419,7 +420,7 @@ h3 {
 		text-align: left;
 		width: 80%;
 		padding-top: 100px;		/* <-모바일 버전은 grid, text-list만 통일*/
-		margin: 0 auto 50px auto;
+		margin: 0 auto 30px auto;
 	}
 }
 .text-chapter {
