@@ -349,11 +349,9 @@ footer img {
 }
 @media (max-width:768px) {
 	footer {
-		bottom: 0px;
 		height: 70px;
 		font-size: 8px;
 		padding-top: 5px;
-		padding-bottom: 5px;
 	}
 	footer img {
 		width: 45px;
@@ -364,11 +362,12 @@ footer img {
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
-	bottom: 11px;
+	
 }
 .footer img {
 	font-size: 55px;
 	font-family: 'Jamie Oh! bold';
+	bottom: 0;
 }
 .footer-text {
 	margin-left: 2px;
