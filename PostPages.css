@@ -229,6 +229,7 @@ a:hover {color: #f7a98a;}
 	}
 	#lang-toggle label {
 	    font-size: 11px;
+		transition: none;
 	}
 	.lang-divider {
     	height: 8px;
