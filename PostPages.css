@@ -224,7 +224,7 @@ a:hover {color: #f7a98a;}
 @media (max-width: 768px) {
 	#lang-toggle {
     	top: 26px;
-		right: 67px;
+		right: 68px;
     	gap: 3px;
 	}
 	#lang-toggle label {
