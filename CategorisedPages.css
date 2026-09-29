@@ -357,7 +357,8 @@ footer img {
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
-	overflow: hidden; 
+	overflow: hidden;
+	box-sizing: border-box; 
 }
 .footer img {
 	font-size: 55px;
