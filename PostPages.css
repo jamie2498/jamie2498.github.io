@@ -234,6 +234,7 @@ a:hover {color: #f7a98a;}
 	}
 	.lang-divider {
     	height: 8px;
+		width: 0.8px;
 	}
 }
 
