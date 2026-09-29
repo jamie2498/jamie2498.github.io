@@ -375,12 +375,16 @@ footer img {
 	margin-bottom: 5px;
 }
 @media (max-width:768px) {
-	/*.footer {
-
-	}*/
+	.footer {
+		bottom: 5px;
+	}
 	.footer img {
 		font-size: 45px;
 		font-family: 'Jamie Oh! bold';
+	}
+	.footer-text {
+	margin-left: 1px;
+	margin-bottom: 3px;
 	}
 }
 
