@@ -176,21 +176,6 @@ a:hover {color: #f7a98a;}
 		width: 100%;
 		object-fit: cover;
 	}
-	/*.two-img img {
-		height: 100%;
-		width: 45%;
-		object-fit: cover;
-	}
-	.three-img img {
-		height:100%;
-		width:100%;
-		object-fit: cover;
-	}
-	.four-img img {
-		height: 100%;
-		width:22%;
-		object-fit: cover;
-	}*/
 }
 
 
@@ -217,15 +202,21 @@ a:hover {color: #f7a98a;}
     right: 60px;
     z-index: 5;
     display: flex;
+	align-items: center; 
     gap: 6px;
 }
 #lang-toggle label {
     cursor: pointer;
-    padding: 3px 10px;
     font-size: 13px;
-    border: 1px solid #09183b;
-    border-radius: 3px;
     color: #09183b;
+    opacity: 0.3;
+	transition: opacity 0.2s ease;
+}
+.lang-divider {
+    width: 1px;
+    height: 12px;
+    background-color: #09183b;
+    opacity: 0.3;
 }
 @media (max-width: 768px) {
 	#lang-toggle {
@@ -234,8 +225,10 @@ a:hover {color: #f7a98a;}
     	gap: 3px;
 	}
 	#lang-toggle label {
-	    padding: 2px 8px;
 	    font-size: 9px;
+	}
+	.lang-divider {
+    	height: 8px;
 	}
 }
 
