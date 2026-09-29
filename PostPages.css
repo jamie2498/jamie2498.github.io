@@ -224,11 +224,11 @@ a:hover {color: #f7a98a;}
 @media (max-width: 768px) {
 	#lang-toggle {
     	top: 26px;
-		right: 65px;
+		right: 67px;
     	gap: 3px;
 	}
 	#lang-toggle label {
-	    font-size: 10px;
+	    font-size: 11px;
 	}
 	.lang-divider {
     	height: 8px;

@@ -111,7 +111,7 @@ li {
         display: block;
         position: fixed;
 		float: right;
-        right: 22px;
+        right: 24px;
         top: 25px;
         width: 24px;
         height: 17px;
@@ -321,6 +321,7 @@ img {
 		height: 70px;
 		font-size: 25px;
 		background-color: #f4f2f0;
+		margin-left: 22px;
 	}
 	.header img {
 		max-width: 200px;
