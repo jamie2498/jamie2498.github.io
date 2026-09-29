@@ -204,12 +204,17 @@ a:hover {color: #f7a98a;}
     display: flex;
 	align-items: center; 
     gap: 6px;
+
+	color: #09183b;
+	transition: opacity 0.2s ease;
 }
 #lang-toggle label {
     cursor: pointer;
     font-size: 15px;
-    color: rgba(9, 24, 59, 0.2);
+    /*
+	color: rgba(9, 24, 59, 0.2);
 	transition: opacity 0.2s ease;
+	*/
 	background: none;
     border: none;
 }
