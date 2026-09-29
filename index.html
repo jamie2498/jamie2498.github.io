@@ -4,9 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>jamie-o.com | Home</title>
-<link href="Home.css" rel="stylesheet" type="text/css">
+<link href="/Home.css" rel="stylesheet" type="text/css">
+<link href="/CategorisedPages.css" rel="stylesheet" type="text/css">
 <link rel="icon" href="/favicon.ico">
 
+<script src="/code.jquery.com_jquery-3.7.1.js"></script>
+<script type="text/javascript">   
+$(document).ready( function() {
+	$("#footer").load("/footer.html");
+    });
+</script>
 </head>
 
 <body>
@@ -46,12 +53,15 @@
 	
         </section>
 
+        <!--
         <footer>
-	    	<div id=footer>
+	    	<div class=footer>
 			    <img src = "/icon.png" alt = "JM">
 			    <div class="footer-text">© 2026 Jamie Oh. All Rights Reserved.</div>
     		</div>
         </footer>
+        -->
+        <footer id="footer"></footer>
     </div>
 
 </body>
