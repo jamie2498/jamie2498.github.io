@@ -206,6 +206,7 @@ a:hover {color: #f7a98a;}
     gap: 6px;
 
 	color: #09183b;
+	opacity: 0.3;
 	transition: opacity 0.2s ease;
 }
 #lang-toggle label {
@@ -226,7 +227,7 @@ a:hover {color: #f7a98a;}
 }
 #langEN:checked ~ #lang-toggle label[for="langEN"],
 #langKR:checked ~ #lang-toggle label[for="langKR"] {
-    color: rgba(9, 24, 59, 1);
+    opacity: 1;
 }
 @media (max-width: 768px) {
 	#lang-toggle {
