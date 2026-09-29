@@ -316,7 +316,7 @@ img {
 @media (max-width: 768px) {
 	.header {
 		/*width: calc(100% - 46px);*/
-		height: 50px; /*70px*/
+		height: 70px;
 		font-size: 25px;
 		background-color: #f4f2f0;
 	}
@@ -394,33 +394,6 @@ footer img {
 	}
 }
 
-.right-footer {
-	width: 49%;
-	bottom: 11px;
-	display: flex;
-	justify-content: flex-end;
-	float: right;
-	align-items: center;
-	margin-left: 1px;
-}
-.left-footer {
-	width: 49%;
-	font-size: 55px;
-	font-family: 'Jamie Oh! bold';
-	float: left;
-	bottom: 11px;
-	margin-right: 1px;
-	display: flex;
-	justify-content: flex-end;
-}
-@media (max-width:768px) {
-	.right-footer {
-		bottom: 3px;
-	}
-	.left-footer {
-		font-size: 45px;
-	}
-}
 h3 {
   font-weight: 400;
 }
