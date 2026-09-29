@@ -206,7 +206,7 @@ footer img {
 
 .footer {
 	width: 100%;
-	bottom: 15px;
+	bottom: 20px; /*15*/
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
@@ -232,8 +232,8 @@ footer img {
 	.footer img {
 		font-size: 45px;
 		font-family: 'Jamie Oh! bold';
-		height: 20px;
-		max-width: 35px;
+		height: 30px;
+		max-width: 50px;
 	}
 	.footer-text {
 	margin-left: 2px;
