@@ -216,14 +216,14 @@ footer img {
 .footer img {
 	font-size: 55px;
 	font-family: 'Jamie Oh! bold';
-	height: 48px;
-	max-width: 62px;
+	height: 47px;
+	max-width: 60px;
 	object-fit: cover;
 	object-position: center;
 }
 .footer-text {
 	margin-left: 3px;
-	margin-bottom: 9px;
+	margin-bottom: 12px;
 }
 @media (max-width:768px) {
 	.footer {
