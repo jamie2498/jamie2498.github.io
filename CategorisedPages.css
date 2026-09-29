@@ -362,6 +362,7 @@ footer img {
 .footer {
 	display: flex;
 	justify-content: center;
+	align-items: bottom;
 	bottom: 11px;
 }
 .footer img {
