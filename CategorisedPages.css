@@ -385,7 +385,7 @@ footer img {
 }
 @media (max-width:768px) {
 	.footer {
-		bottom: 11px;
+		bottom: 12px;
 	}
 	.footer img {
 		font-size: 45px;
@@ -395,7 +395,7 @@ footer img {
 	}
 	.footer-text {
 	margin-left: 2px;
-	margin-bottom: 6px;
+	margin-bottom: 5px;
 	}
 }
 
