@@ -198,7 +198,7 @@ a:hover {color: #f7a98a;}
 /* 토글 버튼 디자인 */
 #lang-toggle {
     position: fixed; 
-    top: 50px;
+    top: 55px;
     right: 60px;
     z-index: 5;
     display: flex;
@@ -207,20 +207,21 @@ a:hover {color: #f7a98a;}
 }
 #lang-toggle label {
     cursor: pointer;
-    font-size: 13px;
-    color: #09183b;
-    opacity: 0.3;
+    font-size: 14px;
+    color: rgba(9, 24, 59, 0.2);
 	transition: opacity 0.2s ease;
+	background: none;
+    border: none;
 }
 .lang-divider {
-    width: 1px;
+    width: 1.2px;
     height: 12px;
     background-color: #09183b;
     opacity: 0.3;
 }
 #langEN:checked ~ #lang-toggle label[for="langEN"],
 #langKR:checked ~ #lang-toggle label[for="langKR"] {
-    opacity: 1;
+    color: rgba(9, 24, 59, 1);
 }
 @media (max-width: 768px) {
 	#lang-toggle {
@@ -229,7 +230,7 @@ a:hover {color: #f7a98a;}
     	gap: 3px;
 	}
 	#lang-toggle label {
-	    font-size: 9px;
+	    font-size: 10px;
 	}
 	.lang-divider {
     	height: 8px;
