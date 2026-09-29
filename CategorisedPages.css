@@ -360,7 +360,7 @@ footer img {
 
 .footer {
 	width: 100%;
-	margin: 0 auto 0 auto;
+	margin: 10 auto 0 auto;
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
@@ -380,7 +380,7 @@ footer img {
 }
 @media (max-width:768px) {
 	.footer {
-		bottom: 5px;
+		bottom: 7px;
 	}
 	.footer img {
 		font-size: 45px;
