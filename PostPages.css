@@ -207,7 +207,7 @@ a:hover {color: #f7a98a;}
 }
 #lang-toggle label {
     cursor: pointer;
-    font-size: 17px;
+    font-size: 20px;
 	color: #09183b;
 	transition: opacity 0.2s ease;
 	opacity: 0.3;
