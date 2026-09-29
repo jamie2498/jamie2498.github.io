@@ -356,7 +356,7 @@ footer img {
 		padding-bottom: 5px;
 	}
 	footer img {
-		width: 60px;
+		width: 45px;
 	}
 }
 
@@ -370,6 +370,10 @@ footer img {
 	font-size: 55px;
 	font-family: 'Jamie Oh! bold';
 	margin-bottom: 0;
+}
+.footer-text {
+	margin-left: 2px;
+	margin-bottom: 5px;
 }
 @media (max-width:768px) {
 	/*.footer {
