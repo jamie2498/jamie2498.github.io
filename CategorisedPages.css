@@ -196,10 +196,10 @@ li {
 
 /*!!!post, text-list의 width, margin, padding-top 통일!!!*/
 .grid {
-	text-align: center;
+	/*text-align: center;
 	width: calc(100% - 580px);
 	margin: 0 auto 200px auto;		/*bottom은 footer와의 거리*/
-	padding-top: 150px;
+	/*padding-top: 150px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -207,6 +207,17 @@ li {
 	place-items: center;
 	grid-template-columns: repeat(3, 1fr);
 	grid-auto-rows: minmax(100px, auto);
+	gap: 35px 25px;
+	color: #09183b;*/
+
+	text-align: center;
+	width: calc(100% - 580px);
+	margin: 0 auto 200px auto;
+	padding-top: 150px;
+	display: grid;                              /* flex → grid */
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: minmax(100px, auto);
+	align-items: center;                          /* place-items 대신 세로만 */
 	gap: 35px 25px;
 	color: #09183b;
 }
