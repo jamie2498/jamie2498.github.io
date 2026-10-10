@@ -198,8 +198,8 @@ li {
 .grid {
 	/*text-align: center;
 	width: calc(100% - 580px);
-	margin: 0 auto 200px auto;		/*bottom은 footer와의 거리*/
-	/*padding-top: 150px;
+	margin: 0 auto 200px auto;		
+	padding-top: 150px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -212,7 +212,7 @@ li {
 
 	text-align: center;
 	width: calc(100% - 580px);
-	margin: 0 auto 200px auto;
+	margin: 0 auto 200px auto;			/*bottom은 footer와의 거리*/
 	padding-top: 150px;
 	display: grid;                              /* flex → grid */
 	grid-template-columns: repeat(3, 1fr);
@@ -258,6 +258,7 @@ img {
     transform: scale(1.1);
 }
 
+/*
 .Item1 {grid-column: 1/2; grid-row: 1/2; order:12;}
 .Item2 {grid-column: 2/3; grid-row: 1/2; order:11;}
 .Item3 {grid-column: 3/4; grid-row: 1/2; order:10;}
@@ -267,6 +268,16 @@ img {
 .Item7 {grid-column: 1/2; grid-row: 3/4; order:6;}
 .Item8 {grid-column: 2/3; grid-row: 3/4; order:5;}
 .Item9 {grid-column: 3/4; grid-row: 3/4; order:4;}
+*/
+.Item1 {order:12;}
+.Item2 {order:11;}
+.Item3 {order:10;}
+.Item4 {order:9;}
+.Item5 {order:8;}
+.Item6 {order:7;}
+.Item7 {order:6;}
+.Item8 {order:5;}
+.Item9 {order:4;}
 
 @media (max-width:768px) {
 	.grid{
